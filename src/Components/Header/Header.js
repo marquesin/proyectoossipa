@@ -10,14 +10,14 @@ export default function Header() {
     return (
         <section className="containerHeader">
             <div className="containerLogo"> <img src={logo} alt="Logo de la empresa" className="logoHeader"/></div>
-            <div >
+            <div className="containerButtonHeader">
                 <button className="buttonHeader">HOME</button>
                 <button className="buttonHeader">NOSOTROS</button>
                 <button className="buttonHeader">SOLUCIONES</button>
                 <button className="buttonHeader">BLOG</button>
                 <button className="buttonHeader">CONTACTO</button>
              </div>
-            <div>
+            <div className="containerIconHeader">
             <img src={iconFace} alt="Icono de Facebook" className="iconosRedes" />
             <img src={iconTwi} alt="Icono de Twitter" className="iconosRedes"/>
             <img src={iconIn} alt="Icono de In" className="iconosRedes"/>
