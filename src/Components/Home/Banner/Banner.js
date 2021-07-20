@@ -13,9 +13,9 @@ export default function Banner() {
           nonumy eirmod tempor invidunt ut labore et dolore magna ipscing elitr,
           sed diam nonumy eirmod tempor invidunt ut labore et d
         </p>
-        <div className="containerbuttonBanner">
-          <button>SOLUCIONES</button>
-          <button>NOSOTROS</button>
+        <div className="containerbuttonBannerHome">
+          <button className="buttonBannerHomeSo">SOLUCIONES</button>
+          <button className="buttonBannerHomeNo">NOSOTROS</button>
         </div>{" "}
       </div>
     </div>

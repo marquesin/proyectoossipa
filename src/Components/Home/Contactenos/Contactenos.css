@@ -1,0 +1,127 @@
+.containerContactenos{
+    display: flex;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-bottom: 8%;
+}
+.ContainerMayorInformacion{
+    width: 40%;
+    margin-top: -8%;
+}
+.mayorInfoC{
+    background-color:  #54A9BE ;
+    opacity: 1;
+    /* width: 446px; */
+    width: 400px;
+    /* height: 138px; */
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mayorInfoh3{
+    color: #FFFFFF;
+    /* font-size: 27px; */
+    font-size: 20px;
+    font-weight: 700;
+    /* text-shadow: 0px 3px 50px #4B4B4BE8; */
+    opacity: 1;
+    padding: 5%;
+}
+.containerImputMayorInfo{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: #F9F9F9;
+    mix-blend-mode: multiply;
+    opacity: 1;
+    padding-top: 8%;
+    
+}
+.ImputMayorInfo{
+    color: #2D2D2D;
+    font-family: 'Montserrat', sans-serif;
+    height: 55px;
+    border: none;
+    text-align:unset;
+    font-size: 19px;
+    border-bottom: solid 1px #2D2D2D;
+    font-weight: 700;
+    padding-top: 4%;
+    margin-top: 4%;
+}
+.texteaMayorInfo{
+    margin-top: 1%;
+    color: #2D2D2D;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    text-align:unset;
+    font-size: 19px;
+    border-bottom: solid 1px #2D2D2D;
+    font-weight: 700;
+    padding-top: 4%;
+    margin-top: 4%;
+
+}
+.buttonEnviarMayorInfo{
+    height: 65px;
+    margin-top: 8%;
+    width: 400px;
+    background-color: #626D71;
+    border: solid 1px #707070;
+    font-weight: 700;
+    font-size: 27px;
+    color: #FFFFFF;
+    opacity: 100%;
+    letter-spacing: 0px;
+    text-shadow: 0px 3px 50px #4B4B4BE8;
+}
+.conocenos{
+    width: 70%;
+    margin-top: 9%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.h2Conocenos{
+    font-weight: 700;
+    font-size: 41px;
+    color: #2E2E2E;
+    opacity: 1;
+    text-align: right;
+    width: 90%;
+}
+.h2ConocenosColor{
+    color: #6BBEC6;
+}
+
+.pConocenos{
+width: 90%;
+height: 167px;
+align-self: center;
+text-align: right;
+letter-spacing: 0px;
+color: #767676;
+opacity: 1;
+font-weight: 500;
+}
+.continervaloresConocenos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.valorConocenos{
+    width: 180px;
+    height: 132px;
+    background-color: #F9F9F9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    mix-blend-mode: multiply;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6BBEC6;
+    font-weight: 700;
+}

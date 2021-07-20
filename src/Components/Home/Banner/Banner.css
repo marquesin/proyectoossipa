@@ -18,6 +18,7 @@
 color: #FFFFFF;
 font-size: 65px;
 font-weight: 700;
+text-shadow: 0px 3px 50px #4B4B4BE8;
 }
 .titleColor{
     color: #12BDC4;
@@ -28,6 +29,33 @@ font-weight: 700;
     font-weight: 500;
     color: #FFFFFF;
 }
-.containerbuttonBanner{
-   margin-top: 5%;
+
+.containerbuttonBannerHome{
+    width: 30%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+.buttonBannerHomeSo, .buttonBannerHomeNo{
+    width: 198px;
+    height: 63px;
+    border: none;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 0;
+    border-radius: 8px;
+   
+}
+.buttonBannerHomeSo{
+    background-color: #1FBDC4;
+    color: #707070;
+    opacity: 1;
+     box-shadow: 0px 3px 6px #00000096;
+}
+.buttonBannerHomeNo{
+    background-color: transparent;
+    box-shadow: 0px 3px 6px #000000A3;
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+    color: #FFFFFF;
 }

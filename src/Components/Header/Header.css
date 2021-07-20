@@ -10,9 +10,10 @@
     justify-content: space-around;
     width: 84%;
     height: 120px;
-    border: solid;
+    /* border: solid; */
     padding-left: 8%;
     padding-right: 8%;
+    z-index: 100;
 }
 
 .containerLogo {
