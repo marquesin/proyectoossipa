@@ -5,6 +5,7 @@ import Banner from "./Banner/Banner";
 import Contactenos from "./Contactenos/Contactenos";
 import ComoPodemosAyudar from "./ComoPodemosAyudar/ComoPodemosAyudar";
 import Blog from "./Blog/Blog";
+import Footer from "../Footer/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Contactenos />
       <ComoPodemosAyudar />
       <Blog />
+      <Footer />
     </main>
   );
 }
