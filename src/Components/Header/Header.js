@@ -8,7 +8,8 @@ import iconIn from "./images/IconIn.svg"
 
 export default function Header() {
     return (
-        <section className="containerHeader">
+        <section className="Header">
+             <div className="containerHeader">
             <div className="containerLogo"> <img src={logo} alt="Logo de la empresa" className="logoHeader"/></div>
             <div className="containerButtonHeader">
                 <button className="buttonHeader">HOME</button>
@@ -22,6 +23,6 @@ export default function Header() {
             <img src={iconTwi} alt="Icono de Twitter" className="iconosRedes"/>
             <img src={iconIn} alt="Icono de In" className="iconosRedes"/>
             </div>
-        </section>
+        </div></section>
     )
 }
