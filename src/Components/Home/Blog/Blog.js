@@ -5,7 +5,7 @@ export default function Blog() {
   return (
     <section className="blog">
       <h2 className="h2Blog">BLOG</h2>
-      <h3 className="h3Blog">TEMAS RECIENTES</h3>
+      <h3 className="Blogh3">TEMAS RECIENTES</h3>
       <div className="containerBlogs">
         <div className="containerBlog">
           <div className="fotoBlog">FOTO</div>{" "}

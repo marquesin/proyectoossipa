@@ -11,12 +11,13 @@
     opacity: 1;
     color: #2E2E2E;
 }
-.h3Blog{
+.Blogh3{
     font-size: 29px;
     font-weight: 700;
     color: #2E2E2E;
     opacity: 1;
     letter-spacing: 0;
+    text-align: center;
 }
 
 .containerBlogs{
@@ -32,7 +33,7 @@
     width: 305px;
     height: 320px;
     background-color: #D8D8D8;
-    border: solid;
+    /* border: solid; */
 }
 
 .h4Blog{
