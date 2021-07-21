@@ -77,6 +77,10 @@
     letter-spacing: 0px;
     text-shadow: 0px 3px 50px #4B4B4BE8;
 }
+.buttonEnviarMayorInfo:hover{
+    background-color:  #313639;
+}
+
 .conocenos{
     width: 70%;
     margin-top: 9%;

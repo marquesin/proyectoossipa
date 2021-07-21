@@ -1,0 +1,32 @@
+.ServicioAmpliadoInfo{
+    width: 40%;
+    background-color: #53A6BB;
+    display: flex;
+   /* justify-content: center; */
+    flex-direction: column;
+    padding: 5%;
+}
+.h4ServicioAmpliado{
+    font-size: 41px;
+    font-weight: 700;
+    color: #FFFFFF;
+    opacity: 1;
+    letter-spacing: 0px;
+    margin-top: 15%;
+    text-align: right;
+    margin-right: 2%;
+}
+.pServicioAmpliado{
+    height: 500px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 500;
+}
+
+
+.ServicioAmpliadoFoto{
+    width: 50%;
+    background-color: #D8D8D8;
+}

@@ -52,10 +52,20 @@ text-shadow: 0px 3px 50px #4B4B4BE8;
     opacity: 1;
      box-shadow: 0px 3px 6px #00000096;
 }
+.buttonBannerHomeSo:hover{
+background-color: #3B7381 ;
+color: #FFFFFF;
+cursor: pointer;
+}
 .buttonBannerHomeNo{
-    background-color: transparent;
+    background-color: #626D71;
     box-shadow: 0px 3px 6px #000000A3;
-    border: 2px solid #FFFFFF;
+    /* border: 2px solid #FFFFFF; */
     opacity: 1;
     color: #FFFFFF;
+}
+.buttonBannerHomeNo:hover{
+    background-color: #313639;
+    cursor: pointer;
+
 }
