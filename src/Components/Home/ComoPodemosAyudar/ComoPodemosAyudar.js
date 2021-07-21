@@ -41,7 +41,14 @@ export default function ComoPodemosAyudar() {
               setHover(!hover);
             }}
             onClick={() => {
-              setDespliga1(!despliega1);
+              setDespliga1(
+                !despliega1,
+                setDespliga2(false),
+                setDespliga3(false),
+                setDespliga4(false),
+                setDespliga5(false),
+                setDespliga6(false)
+              );
             }}
           >
             <IconosCambiantesEnServicios hover={hover} />
@@ -58,7 +65,14 @@ export default function ComoPodemosAyudar() {
               setHover2(!hover2);
             }}
             onClick={() => {
-              setDespliga2(!despliega2);
+              setDespliga2(
+                !despliega2,
+                setDespliga1(false),
+                setDespliga3(false),
+                setDespliga4(false),
+                setDespliga5(false),
+                setDespliga6(false)
+              );
             }}
           >
             <IconosCambiantesEnServicios hover={hover2} />
@@ -76,7 +90,14 @@ export default function ComoPodemosAyudar() {
               setHover3(!hover3);
             }}
             onClick={() => {
-              setDespliga3(!despliega3);
+              setDespliga3(
+                !despliega3,
+                setDespliga1(false),
+                setDespliga2(false),
+                setDespliga4(false),
+                setDespliga5(false),
+                setDespliga6(false)
+              );
             }}
           >
             <IconosCambiantesEnServicios hover={hover3} />
@@ -98,7 +119,14 @@ export default function ComoPodemosAyudar() {
               setHover4(!hover4);
             }}
             onClick={() => {
-              setDespliga4(!despliega4);
+              setDespliga4(
+                !despliega4,
+                setDespliga2(false),
+                setDespliga3(false),
+                setDespliga1(false),
+                setDespliga5(false),
+                setDespliga6(false)
+              );
             }}
           >
             <IconosCambiantesEnServicios hover={hover4} />
@@ -115,7 +143,14 @@ export default function ComoPodemosAyudar() {
               setHover5(!hover5);
             }}
             onClick={() => {
-              setDespliga5(!despliega5);
+              setDespliga5(
+                !despliega5,
+                setDespliga2(false),
+                setDespliga3(false),
+                setDespliga4(false),
+                setDespliga1(false),
+                setDespliga6(false)
+              );
             }}
           >
             <IconosCambiantesEnServicios hover={hover5} />
@@ -132,7 +167,14 @@ export default function ComoPodemosAyudar() {
               setHover6(!hover6);
             }}
             onClick={() => {
-              setDespliga6(!despliega6);
+              setDespliga6(
+                !despliega6,
+                setDespliga2(false),
+                setDespliga3(false),
+                setDespliga4(false),
+                setDespliga5(false),
+                setDespliga1(false)
+              );
             }}
           >
             <IconosCambiantesEnServicios hover={hover6} />

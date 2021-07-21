@@ -28,13 +28,14 @@
     /* text-shadow: 0px 3px 50px #4B4B4BE8; */
     opacity: 1;
     padding: 5%;
+    text-align: center;
 }
 .containerImputMayorInfo{
     display: flex;
     flex-direction: column;
     width: 400px;
     background-color: #F9F9F9;
-    mix-blend-mode: multiply;
+    /* mix-blend-mode: multiply; */
     opacity: 1;
     padding-top: 8%;
     
