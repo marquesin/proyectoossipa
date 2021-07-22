@@ -123,7 +123,22 @@ export default function Servicios(props) {
           <div className="ServicioAmpliadoFoto">imagen</div>
         </div>
       ) : (
-        ""
+        <div className="servicioAmpliado">
+          <div className="ServicioAmpliadoInfo">
+            <h4 className="h4ServicioAmpliado">SERVICIO 1</h4>
+            <p className="pServicioAmpliado">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua. At vero eos et accusam et justo duo
+              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+              amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+              invidunt ut labore et dolore magna aliquyam erat, sed diam
+              voluptua. At vero eos et accusam et justo duo
+            </p>
+          </div>
+          <div className="ServicioAmpliadoFoto">imagen</div>
+        </div>
       )}
       {/* SERVICIO 6 */}
     </section>
