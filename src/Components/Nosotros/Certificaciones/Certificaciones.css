@@ -1,0 +1,51 @@
+.containerCertificaciones{
+    display: flex;
+    background-color: #F9F9F9;
+    opacity: 1;
+    padding-left: 12%;
+    padding-right: 10%;
+    padding-bottom: 8%;
+}
+
+.containerTitleyPCertificaciones{
+    width: 35%;
+}
+
+.titleCertificaciones{
+    font-weight: 700;
+    font-size: 41px;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.titleCertificacionesColor{
+    color: #6BBEC6;
+}
+.pCertificaciones{
+    color: #767676;
+    letter-spacing: 0px;
+    opacity: 1;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.containerValoresCertificaciones{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.valoresDeCertificaciones{
+background: #FFFFFF;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+width: 170px;
+height: 130px;
+color: #6BBEC6;
+font-size: 21px;
+font-weight: 700;
+display: flex;
+align-items: center;
+justify-content: center;
+}
