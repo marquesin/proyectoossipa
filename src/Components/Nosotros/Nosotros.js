@@ -6,6 +6,7 @@ import Banner from "./Banner/Banner";
 import NuestraHistoria from "./NuestraHistoria/NuestraHistoria";
 import Certificaciones from "./Certificaciones/Certificaciones";
 import Slogan from "./Slogan/Slogan";
+import PorqueElegirnos from "./PorqueElegirnos/PorqueElegirnos";
 
 export default function Nosotros() {
   return (
@@ -15,6 +16,7 @@ export default function Nosotros() {
       <NuestraHistoria />
       <Certificaciones />
       <Slogan />
+      <PorqueElegirnos />
       <Footer />
     </main>
   );
