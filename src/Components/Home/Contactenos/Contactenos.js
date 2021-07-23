@@ -10,11 +10,12 @@ export default function Contactenos() {
         </div>
         <div className="containerImputMayorInfo">
           <input type="text" placeholder="Nombre" className="ImputMayorInfo" />
-          <input type="text" placeholder="Email" className="ImputMayorInfo" />
+          <input type="email" placeholder="Email" className="ImputMayorInfo" />
           <input
-            type="text"
+            type="tel"
             placeholder="Telefono"
             className="ImputMayorInfo"
+            // pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
           />
           {/* <input type="text" placeholder="Mensaje" /> */}
           <textarea
