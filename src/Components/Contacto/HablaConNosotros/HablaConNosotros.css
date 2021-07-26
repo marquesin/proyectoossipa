@@ -1,12 +1,121 @@
-/* .hablaConNos{
-    /* display: flex; */
-    /* flex-direction: column; */
+ .hablaConNos{
+     width: 90%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding-left: 4%;
+     padding-right: 4%;
+     margin-bottom: 4%;
+ } 
+.titleHablaConNosotros{
+    width: 80%;
+    text-align: right;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #2E2E2E;
+    opacity: 1;
+    font-size: 41px;
+}
+.titleHablaConNosotrosColor{
+    color: #6BBEC6;
+}
 
-/* } */
-/* .titleHablaConNosotros{ */
-    /* width: 100%; */
-/* } */
 
-/* .containerFormulario{ */
-    /* display: flex; */
-/* } */ 
+.hileraFormVisit{
+    display: flex;
+    /* align-items: flex-start; */
+    width: 80%;
+    justify-content: space-between;
+}
+
+.containerFormulario{
+    width: 100%;
+    margin-top: 2%;
+}
+.containerCorreoNombreTemaTelMensaje{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+.containerCorreoNombre, .containerTemaTel{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+
+.inputContactenos{
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-bottom: solid #707070 1px;
+    text-align: right;
+    margin: 2%;
+}
+.texteaMensaje{
+    border: none;
+    border-bottom: solid #707070 1px;
+    text-align: right;
+    margin-top: 2%;
+}
+
+.buttonEnviarContactenos{
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    opacity: 1;
+    background-color: #626D71;
+    border: solid 1px #707070;
+    height: 61px;
+    width: 100%;
+    margin-top: 4%;
+}
+
+.containerVisitanos{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2%;
+    margin-left: 15%;
+}
+.itemVisitanos{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 1%;
+}
+
+.CInfoVisit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #767676;
+    font-weight: 600;
+    text-align: right;
+    letter-spacing: 0px;
+    opacity: 1;
+    font-size: 18px;
+    /* border-right: solid 3px #707070; */
+}
+
+.infoVisitTitle{
+    font-weight: 700;
+    text-align: left;
+}
+
+.infoSubVisitTitle{
+    font-weight: 500;
+}
+.containerIconVisit{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 50%;
+     
+}

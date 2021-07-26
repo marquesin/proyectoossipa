@@ -6,3 +6,16 @@
     justify-content: center;
     align-items: center;
 }
+.titleContactanos{
+    font-size: 67px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 0px;
+    text-shadow: 0px 3px 50px #4B4B4BE8;
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+.titleContactanosColor{
+    color:#6BBEC6 ;
+}
