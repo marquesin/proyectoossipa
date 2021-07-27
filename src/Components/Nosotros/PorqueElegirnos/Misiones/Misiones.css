@@ -57,6 +57,10 @@
     font-size: 28px;
 
 }
+.buttonMisiones:hover, .buttonMisiones-:hover{
+    background-color: #3B7381;
+    color: #FFFFFF;
+}
 .pMisiones{
     font-size: 18px;
     font-weight: 500;

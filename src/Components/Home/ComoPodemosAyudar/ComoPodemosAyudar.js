@@ -4,6 +4,7 @@ import iconN from "./images/iconServiciosNatural.svg";
 import iconC from "./images/iconServiciosClikeado.svg";
 import { useState } from "react";
 import Servicios from "./Servicios/Servicios";
+import servicioIcon from "./images/iconServicio.svg";
 
 export default function ComoPodemosAyudar() {
   const [hover, setHover] = useState(false);
@@ -33,7 +34,9 @@ export default function ComoPodemosAyudar() {
       <div className="containerServiciosCPA">
         <div className="ServiciosCPA">
           <button
-            className="buttonServiciosCPA"
+            className={
+              despliega1 ? "buttonServiciosCPAActivo" : "buttonServiciosCPA"
+            }
             onMouseEnter={() => {
               setHover(!hover);
             }}
@@ -51,13 +54,17 @@ export default function ComoPodemosAyudar() {
               );
             }}
           >
-            <IconosCambiantesEnServicios hover={hover} />
+            {/* <img src={servicioIcon} alt="Iconos Servicios" id="iconoService" /> */}
+
+            <IconosCambiantesEnServicios hover={hover} click={despliega1} />
           </button>
           <p className="pServiciosCPA">SERVICIO 1</p>
         </div>
         <div className="ServiciosCPA">
           <button
-            className="buttonServiciosCPA"
+            className={
+              despliega2 ? "buttonServiciosCPAActivo" : "buttonServiciosCPA"
+            }
             onMouseEnter={() => {
               setHover2(!hover2);
             }}
@@ -75,14 +82,18 @@ export default function ComoPodemosAyudar() {
               );
             }}
           >
-            <IconosCambiantesEnServicios hover={hover2} />
+            {/* <img src={servicioIcon} alt="Iconos Servicios" id="iconoService" /> */}
+
+            <IconosCambiantesEnServicios hover={hover2} click={despliega2} />
           </button>
           <p className="pServiciosCPA">SERVICIO 2</p>
         </div>
         <div className="ServiciosCPA">
           <button
-            className="buttonServiciosCPA"
-            id="buttonSectPueba"
+            className={
+              despliega3 ? "buttonServiciosCPAActivo" : "buttonServiciosCPA"
+            }
+            // id="buttonSectPueba"
             onMouseEnter={() => {
               setHover3(!hover3);
             }}
@@ -100,7 +111,9 @@ export default function ComoPodemosAyudar() {
               );
             }}
           >
-            <IconosCambiantesEnServicios hover={hover3} />
+            {/* <img src={servicioIcon} alt="Iconos Servicios" id="iconoService" /> */}
+
+            <IconosCambiantesEnServicios hover={hover3} click={despliega3} />
           </button>
           <p
             className="pServiciosCPA"
@@ -111,7 +124,9 @@ export default function ComoPodemosAyudar() {
         </div>
         <div className="ServiciosCPA">
           <button
-            className="buttonServiciosCPA"
+            className={
+              despliega4 ? "buttonServiciosCPAActivo" : "buttonServiciosCPA"
+            }
             onMouseEnter={() => {
               setHover4(!hover4);
             }}
@@ -129,13 +144,17 @@ export default function ComoPodemosAyudar() {
               );
             }}
           >
-            <IconosCambiantesEnServicios hover={hover4} />
+            {/* <img src={servicioIcon} alt="Iconos Servicios" id="iconoService" /> */}
+
+            <IconosCambiantesEnServicios hover={hover4} click={despliega4} />
           </button>
           <p className="pServiciosCPA">SERVICIO 4</p>
         </div>
         <div className="ServiciosCPA">
           <button
-            className="buttonServiciosCPA"
+            className={
+              despliega5 ? "buttonServiciosCPAActivo" : "buttonServiciosCPA"
+            }
             onMouseEnter={() => {
               setHover5(!hover5);
             }}
@@ -153,13 +172,17 @@ export default function ComoPodemosAyudar() {
               );
             }}
           >
-            <IconosCambiantesEnServicios hover={hover5} />
+            {/* <img src={servicioIcon} alt="Iconos Servicios" id="iconoService" /> */}
+
+            <IconosCambiantesEnServicios hover={hover5} click={despliega5} />
           </button>
           <p className="pServiciosCPA">SERVICIO 5</p>
         </div>
         <div className="ServiciosCPA">
           <button
-            className="buttonServiciosCPA"
+            className={
+              despliega6 ? "buttonServiciosCPAActivo" : "buttonServiciosCPA"
+            }
             onMouseEnter={() => {
               setHover6(!hover6);
             }}
@@ -177,7 +200,9 @@ export default function ComoPodemosAyudar() {
               );
             }}
           >
-            <IconosCambiantesEnServicios hover={hover6} />
+            {/* <img src={servicioIcon} alt="Iconos Servicios" id="iconoService" /> */}
+
+            <IconosCambiantesEnServicios hover={hover6} click={despliega6} />
           </button>
           <p className="pServiciosCPA">SERVICIO 6</p>
         </div>
@@ -199,10 +224,10 @@ function IconosCambiantesEnServicios(props) {
     <>
       {props.hover ? (
         <img src={iconC} alt="icon" className="icon" />
-      ) : props.hover === false ? (
-        <img src={iconN} alt="icon" className="icon" />
+      ) : props.click ? (
+        <img src={iconC} alt="icon" className="icon" />
       ) : (
-        ""
+        <img src={iconN} alt="icon" className="icon" />
       )}
     </>
   );
