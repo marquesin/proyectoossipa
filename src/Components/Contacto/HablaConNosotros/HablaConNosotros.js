@@ -1,28 +1,51 @@
 import React from "react";
+import emailjs from "emailjs-com";
 import "./HablaConNosotros.css";
 import pleace from "./images/place-icon.svg";
 import mail from "./images/mail-icon.svg";
 import phone from "./images/icon-phone.svg";
 
 export default function HablaConNosotros() {
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_8e472me",
+        "template_qajxckh",
+        e.target,
+        "user_BzbnwLLjlHwqfefH083rh"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  }
   return (
     <section className="hablaConNos">
       <h2 className="titleHablaConNosotros">
         HABLA CON NOSOTROS<span className="titleHablaConNosotrosColor">.</span>
       </h2>
       <div className="hileraFormVisit">
-        <div className="containerFormulario">
+        <form className="containerFormulario" onSubmit={sendEmail}>
           <div className="containerCorreoNombreTemaTelMensaje">
             <div className="containerCorreoNombre">
               <input
                 type="email"
                 placeholder="Correo"
                 className="inputContactenos"
+                name="email"
               ></input>
               <input
                 type="text"
                 placeholder="Nombre"
                 className="inputContactenos"
+                name="nombre"
               />
             </div>
             <div className="containerTemaTel">
@@ -30,11 +53,13 @@ export default function HablaConNosotros() {
                 type="text"
                 placeholder="Tema"
                 className="inputContactenos"
+                name="tema"
               ></input>
               <input
                 type="tel"
                 placeholder="Teléfono"
                 className="inputContactenos"
+                name="telefono"
               />
             </div>
             <textarea
@@ -44,11 +69,16 @@ export default function HablaConNosotros() {
               rows="10"
               placeholder="Mensaje"
               className="texteaMensaje"
+              name="mensaje"
             ></textarea>
           </div>
 
-          <button className="buttonEnviarContactenos">Enviar</button>
-        </div>
+          <input
+            className="buttonEnviarContactenos"
+            value="Enviar"
+            type="submit"
+          />
+        </form>
         <div className="containerVisitanos">
           <div className="itemVisitanos">
             <div className="CInfoVisit">
