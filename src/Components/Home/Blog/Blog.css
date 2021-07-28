@@ -56,3 +56,32 @@
     font-size: 17px;
     margin-top: 5%;
 }
+
+@media screen and (max-width: 1200px ) {
+    .blog{
+        padding: 0;
+        width: 100%;
+    }
+    .containerBlogs{
+        flex-direction: column;
+        align-items: normal;
+    }
+    .h2Blog, .Blogh3 {
+        font-size: 26px;
+    }
+    .containerBlog{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 5%;
+    }
+    .fotoBlog{
+        width: 200px;
+        height: 200px;
+    }
+    .h4Blog{
+        font-size: 17px;
+    }
+    .buttonVerMasBlogHome{
+        display: none;
+    }
+}

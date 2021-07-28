@@ -76,11 +76,14 @@
     .containerHeaderResponsive{
         position: fixed;
         display: flex;
-        width: 100%;
+        width: 100vw;
         justify-content: space-around;
         align-items: center;
         background-color: #FFFFFF;
         height: 100px;
         z-index: 200;
     }
+    /* .Header{
+        max-width: 100%;
+    } */
 }

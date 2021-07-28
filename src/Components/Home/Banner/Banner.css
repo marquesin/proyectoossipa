@@ -79,12 +79,17 @@ cursor: pointer;
         padding: 0;
         background-image: none;
         background-color: #D6D6D6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .titleHome{
         font-size: 38px;
+        width: 80%;
     }
     .parrafoTitle{
         font-size: 15px;
+        width: 75%;
     }
     .containerbuttonBannerHome{display: none;}
 }

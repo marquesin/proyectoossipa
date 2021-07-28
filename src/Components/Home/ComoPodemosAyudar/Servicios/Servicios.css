@@ -30,3 +30,36 @@
     width: 50%;
     background-color: #D8D8D8;
 }
+
+@media screen and (max-width:1200px) {
+    .servicioAmpliado{
+        width: 100%;
+        flex-direction: column;
+        height: 100%;
+    }
+    .ServicioAmpliadoInfo{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .h4ServicioAmpliado{
+        font-size: 22px;
+        text-align: center;
+        margin-top: 8%;
+    }
+
+    .pServicioAmpliado{
+        font-size: 14px;
+        width: 75%;
+        height: 100%;
+        margin-bottom: 8%;
+    }
+    .ServicioAmpliadoFoto{
+        width: 100%;
+        height: 340px;
+    }
+
+
+}
