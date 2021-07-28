@@ -1,5 +1,6 @@
 .bannerNos{
     background-image: url( "./images/BannerNos.png");
+    background-size: cover;
     width: 100%;
     height: 30vw;
     display: flex;

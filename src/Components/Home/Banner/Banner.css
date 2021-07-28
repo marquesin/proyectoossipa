@@ -1,5 +1,6 @@
 .banner {
     background-image: url("../images/BannerHome.png");
+    background-size: cover;
     width: 100%;
     height: 100vh;
    
@@ -68,4 +69,22 @@ cursor: pointer;
     background-color: #313639;
     cursor: pointer;
 
+}
+@media screen and (min-width: 320px) and (max-width: 1200px)
+{
+    .banner{
+        /* height: 100%; */
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-image: none;
+        background-color: #D6D6D6;
+    }
+    .titleHome{
+        font-size: 38px;
+    }
+    .parrafoTitle{
+        font-size: 15px;
+    }
+    .containerbuttonBannerHome{display: none;}
 }

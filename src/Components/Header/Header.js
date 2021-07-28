@@ -5,6 +5,7 @@ import iconFace from "./images/IconFacebook.svg";
 import iconTwi from "./images/IconTwitter.svg";
 import iconIn from "./images/IconIn.svg";
 import { Link } from "react-router-dom";
+import iconMenu from "./images/bars-solid.svg";
 
 export default function Header() {
   return (
@@ -32,6 +33,17 @@ export default function Header() {
           <img src={iconTwi} alt="Icono de Twitter" className="iconosRedes" />
           <img src={iconIn} alt="Icono de In" className="iconosRedes" />
         </div>
+      </div>
+      <div className="containerHeaderResponsive">
+        <img src={logo} alt="Logo de la empresa" className="logoHeader" />
+        <img
+          src={iconMenu}
+          alt="Icono menu desplegable"
+          className="iconMenuDesolegable"
+        />
+        {/* <div className="containerMenuDesplegable">
+
+        </div> */}
       </div>
     </section>
   );
