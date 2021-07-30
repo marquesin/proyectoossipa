@@ -68,8 +68,14 @@
     width: 40px;
 }
 
+
+
 @media screen and (max-width: 1200px)
 {
+    .Header{
+        height: 25vw;
+        
+    }
     .containerHeader{
         display: none;
     }
@@ -81,9 +87,73 @@
         align-items: center;
         background-color: #FFFFFF;
         height: 100px;
-        z-index: 200;
+        z-index: 300;
+        height: 25vw;
+
     }
-    /* .Header{
-        max-width: 100%;
-    } */
+    .containerMenuDesplegable{
+        width: 100%;
+        /* height: 100%; */
+        position: fixed;
+        padding-top: 25vw;
+        flex-direction: column;
+        display: flex;
+        z-index: 200;
+       
+    }
+    .containerButtonHeaderDesplegable{
+       width: 100%;
+       height: 40vw;
+       flex-direction: column;
+       display: flex;
+       background-color: #FFFFFF;
+       align-items: center;
+       justify-content: space-around;
+       padding-bottom: 5vw;
+       padding-top: 5vw;
+
+    }
+    .buttonHeaderDesplegable{
+        height: 100%;
+        background-color: #FFFFFF;
+        border: none;
+        font-weight: 700;
+        border: none;
+        color: #707070;
+        font-size: 3vw;
+        padding-bottom: 2vw;
+        padding-top: 2vw;
+
+
+    }
+    .containerIconHeaderDesplegable{
+        padding-top: 3vw;
+        background-color: #FFFFFF;
+
+    }
+    .containerIconHeaderDesplegable{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-bottom: 4vw;
+       /* border-bottom: solid #707070 1px; */
+
+    }
+    .iconosRedesResponsive{
+        width: 6vw;
+        height: 6vw;
+    }
+    @media screen and (min-width:768px) and  (max-width: 1200px){
+        .containerHeaderResponsive{
+            height: 15vw;
+            width: 100%;
+        }
+        .Header{
+            height: 15vw;
+        }
+        .containerMenuDesplegable{
+            padding-top: 15vw;
+        }
+    }
+    
 }

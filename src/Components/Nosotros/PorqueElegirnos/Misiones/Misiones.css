@@ -70,3 +70,11 @@
     color: #767676;
     padding: 2% 4% 2% 4%;
 }
+
+@media screen  and (max-width: 1200px){
+    .containerMisiones{
+        width: 100%;
+        margin: 0;
+    }
+    
+}

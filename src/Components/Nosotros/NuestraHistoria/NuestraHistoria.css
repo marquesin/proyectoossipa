@@ -85,3 +85,46 @@
     letter-spacing: 0;
     margin-top: 0;
 }
+
+@media screen  and (max-width: 1200px)
+{
+    .containerNuestraHistoria{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .nuestraHistoriaIzquierda{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nuestraHistoriaDerecha{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .titleNuestraHistoria{
+        font-size: 30px;
+    }
+    .p1NuestraHistoria,.p2NuestraHistoria{
+        font-size: 14px;
+    }
+
+    .hilera1, .hilera2{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .hilera2{
+        margin-bottom: 5vw;
+    }
+   
+}

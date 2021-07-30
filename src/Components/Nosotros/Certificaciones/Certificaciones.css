@@ -49,3 +49,41 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+
+@media screen  and (max-width: 1200px)
+{
+
+.containerCertificaciones{
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.containerTitleyPCertificaciones{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1.titleCertificaciones{
+    font-size: 25px;
+}
+.pCertificaciones{
+    width: 70%;
+    align-self: center;
+}
+.containerValoresCertificaciones{
+    flex-direction: row;
+    margin: 0;
+    flex-wrap: wrap;
+    margin-bottom: 5vw;
+}
+.valoresDeCertificaciones{
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+}

@@ -38,3 +38,37 @@
     color: #FFFFFF;
     opacity: 1;
 }
+
+@media screen  and (max-width: 1200px){
+    .containerPorqueElegirnos{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .containerTitleyMisiones{
+        width: 80%;
+    }
+    .titlePorqueElegirnos{
+        font-size: 26px;
+    }
+    .containerTextComillas{
+        width: 99%;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin-bottom: 5vw;
+    }
+    .containerComilla{
+        display: flex;
+        justify-content: flex-start;
+        width: 70%;
+    }
+    .pComilla{
+        width: 70%;
+        
+    }
+    
+}

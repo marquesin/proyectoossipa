@@ -16,3 +16,13 @@
     text-shadow: 0px 3px 50px #4B4B4BE8;
     opacity: 1;
 }
+
+@media screen  and (max-width: 1200px)
+{
+    .bannerNos{
+        height: 60vw;
+    }
+.titeConocenosN{
+    font-size: 38px;
+}
+}
