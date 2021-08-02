@@ -34,6 +34,28 @@ export default function Footer() {
           <img src={place} alt="" />
         </div>
       </section>
+
+      <section className="footer-contact-responsive">
+        <div className="containerIconFooterContact">
+          <img src={phone} alt="" />
+          <img src={mail} alt="" />
+          <img src={place} alt="" />
+        </div>
+        <div className="containerInfoContact">
+          <div>
+            <h3>Márcanos</h3>
+            <h5>00 00 00 00 </h5>
+          </div>
+          <div>
+            <h3>Mándanos un mail</h3>
+            <h5>calidad@ossipa.com.mx </h5>
+          </div>
+          <div>
+            <h3>Visìtanos</h3>
+            <h5>Pedregal, CDMX </h5>
+          </div>
+        </div>
+      </section>
       <section className="footer-info">
         {/*-------------Inicia Seccion de Newsletter --------------*/}
         <div className="footer-column-1">

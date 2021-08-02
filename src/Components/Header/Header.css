@@ -65,7 +65,7 @@
     display: none;
 }
 .iconMenuDesolegable{
-    width: 40px;
+    width: 30px;
 }
 
 
@@ -120,14 +120,14 @@
         font-weight: 700;
         border: none;
         color: #707070;
-        font-size: 3vw;
+        font-size: 15px;
         padding-bottom: 2vw;
         padding-top: 2vw;
 
 
     }
     .containerIconHeaderDesplegable{
-        padding-top: 3vw;
+        padding-top: 15px;
         background-color: #FFFFFF;
 
     }
@@ -140,8 +140,8 @@
 
     }
     .iconosRedesResponsive{
-        width: 6vw;
-        height: 6vw;
+        width: 20px;
+        height: 20px;
     }
     @media screen and (min-width:768px) and  (max-width: 1200px){
         .containerHeaderResponsive{
