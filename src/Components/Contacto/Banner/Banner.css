@@ -19,3 +19,10 @@
 .titleContactanosColor{
     color:#6BBEC6 ;
 }
+
+@media screen and (max-width:1200px) {
+    .titleContactanos{
+        font-size: 35px;
+    }
+}
+
