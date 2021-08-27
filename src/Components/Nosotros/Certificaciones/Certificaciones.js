@@ -9,9 +9,7 @@ export default function Certificaciones() {
           CERTIFICACIONES<span className="titleCertificacionesColor">.</span>
         </h1>
         <p className="pCertificaciones">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore ma ed diam nonumy
-          eirmod temp
+        Buscamos la excelencia en nuestros servicios y proyectos. Nos capacitamos y regimos bajo entidades certificadoras más estrictas.
         </p>
       </div>
       <div className="containerValoresCertificaciones">

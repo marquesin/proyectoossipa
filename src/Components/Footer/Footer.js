@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="footer-contact-single">
           <div className="text-block-contact">
             <h3>Márcanos</h3>
-            <h5>00 00 00 00 </h5>
+            <h5>+52 1 55 2909 9922 </h5>
           </div>
           <img src={phone} alt="" />
         </div>
@@ -29,7 +29,7 @@ export default function Footer() {
         <div className="footer-contact-single">
           <div className="text-block-contact">
             <h3>Visìtanos</h3>
-            <h5>Pedregal, CDMX </h5>
+            <h5>Cascada, Jardínes del<br/> Pedregal, CDMX</h5>
           </div>
           <img src={place} alt="" />
         </div>
@@ -44,15 +44,15 @@ export default function Footer() {
         <div className="containerInfoContact">
           <div>
             <h3>Márcanos</h3>
-            <h5>00 00 00 00 </h5>
+            <h5>+52 1 55 2909 9922</h5>
           </div>
           <div>
             <h3>Mándanos un mail</h3>
-            <h5>calidad@ossipa.com.mx </h5>
+            <h5>contacto@ossipa.com.mx </h5>
           </div>
           <div>
             <h3>Visìtanos</h3>
-            <h5>Pedregal, CDMX </h5>
+            <h5>Cascada,<br></br> Jardínes del Pedregal,<br /> CDMX</h5>
           </div>
         </div>
       </section>
@@ -61,14 +61,15 @@ export default function Footer() {
         <div className="footer-column-1">
           <h3>Newsletter</h3>
           <h4>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna
+          Mantente informado y al día de los temas más relevantes de la industria de energía, combustibles e hidrocarburos directo en tu correo.
           </h4>
+          <h6 className="footer-proximamente">PRÓXIMAMENTE</h6>
           <div className="input-newsletter">
             <input type="text" placeholder="Introduce tu correo" />
             <span>e </span>
           </div>
         </div>
+        
         {/*-------------Fin Seccion de Newsletter --------------*/}
         {/*------------- Inicia Seccion informativa de links --------------*/}
         <div className="footer-column-2">
@@ -96,9 +97,15 @@ export default function Footer() {
             </ul>
           </div>
           <div className="footer-solutions-column">
-            <h3>Secciones</h3>
+            <h3>Compañía</h3>
             <ul className="footer-solutions">
               <li>
+                <a href="#">Nosotros</a>
+              </li>
+              <li>
+                <a href="#">Soluciones</a>
+              </li>
+              {/* <li>
                 <a href="#">Servicio 1</a>
               </li>
               <li>
@@ -106,13 +113,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#">Servicio 1</a>
-              </li>
-              <li>
-                <a href="#">Servicio 1</a>
-              </li>
-              <li>
-                <a href="#">Servicio 1</a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -126,8 +127,7 @@ export default function Footer() {
             alt="ossipa-logo-white"
           />
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna
+          Generamos soluciones eficientes para los procesos y actividades de la cadena de suministro y logística de combustibles e hidrocarburos.
           </p>
           <div className="social-media-footer">
             <img src={fb} alt="facebook-icon" />

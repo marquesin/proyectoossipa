@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
 }
 
 .titleContactanos {
@@ -23,6 +24,10 @@
 }
 
 @media screen and (max-width:1200px) {
+    .containerBannerContacte {
+        height: 70vw;
+    }
+
     .titleContactanos {
         font-size: 35px;
     }

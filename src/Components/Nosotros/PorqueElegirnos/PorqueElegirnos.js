@@ -12,6 +12,22 @@ export default function PorqueElegirnos() {
         </h1>
         <Misiones />
       </div>
+      <div className="containerTexsComillas">
+      <div className="containerTextComillas">
+        <div className="containerComilla">
+          <img
+            src={Comilla}
+            alt="Imagen de una comilla"
+            className="imageComilla"
+          />
+        </div>
+        <p className="pComilla">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+        </p>
+      </div>
       <div className="containerTextComillas">
         <div className="containerComilla">
           <img
@@ -24,11 +40,8 @@ export default function PorqueElegirnos() {
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
           sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-          sadipscing elitr, sed diam nonumy eirmod.
         </p>
-      </div>
+      </div></div>
     </section>
   );
 }

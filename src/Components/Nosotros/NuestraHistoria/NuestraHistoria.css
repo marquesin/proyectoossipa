@@ -1,25 +1,30 @@
-.containerNuestraHistoria{
+.containerNuestraHistoria {
     display: flex;
     padding-left: 12%;
     padding-right: 12%;
     margin-top: 8%;
     margin-bottom: 8%;
+    justify-content: space-around;
 }
-.nuestraHistoriaIzquierda{
+
+.nuestraHistoriaIzquierda {
     width: 45%;
 }
-.titleNuestraHistoria{
-    font-size:41px ;
+
+.titleNuestraHistoria {
+    font-size: 41px;
     font-weight: 700;
     color: #2E2E2E;
     letter-spacing: 0;
     opacity: 1;
 
 }
-.titleNuestraHistoriaColor{
+
+.titleNuestraHistoriaColor {
     color: #6BBEC6;
 }
-.p1NuestraHistoria{
+
+.p1NuestraHistoria {
     font-size: 18px;
     font-weight: 700;
     color: #767676;
@@ -28,7 +33,7 @@
     opacity: 1;
 }
 
-.p2NuestraHistoria{
+.p2NuestraHistoria {
     font-size: 18px;
     font-weight: 500;
     color: #767676;
@@ -37,36 +42,52 @@
     text-align: left;
 }
 
-.nuestraHistoriaDerecha{
+.nuestraHistoriaDerechaComillas {
+    width: 40%;
+    background-color: #3B7381;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3%;
+    margin-top: 8%;
+    /* height: 300px; */
+}
+
+.nuestraHistoriaDerecha {
     width: 55%;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     margin-top: 8%;
-    justify-content:flex-end;
+    justify-content: flex-end;
+    display: none;
 }
-.hilera1, .hilera2{
+
+.hilera1,
+.hilera2 {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-   
+
 }
-.containerTilulos{
+
+.containerTilulos {
     width: 250px;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    
+
 }
 
-.containerIcon{
+.containerIcon {
     width: 45px;
     height: 45px;
     border: solid gray 2px;
     border-radius: 20%;
 }
-.titulosNuestraHistoria{
+
+.titulosNuestraHistoria {
     font-size: 15px;
     text-align: right;
     color: #222222;
@@ -76,7 +97,8 @@
     margin-bottom: 2px;
     margin-top: 2px;
 }
-.parrafoNuestraHistoria{
+
+.parrafoNuestraHistoria {
     font-size: 16px;
     font-weight: 500;
     text-align: left;
@@ -86,9 +108,8 @@
     margin-top: 0;
 }
 
-@media screen  and (max-width: 1200px)
-{
-    .containerNuestraHistoria{
+@media screen and (max-width: 1200px) {
+    .containerNuestraHistoria {
         flex-direction: column;
         padding: 0;
         margin: 0;
@@ -96,35 +117,49 @@
         align-items: center;
         width: 100%;
     }
-    .nuestraHistoriaIzquierda{
+
+    .nuestraHistoriaIzquierda {
         width: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
-    .nuestraHistoriaDerecha{
+
+    .nuestraHistoriaDerecha {
         width: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
+        display: none;
     }
-    .titleNuestraHistoria{
+
+    .nuestraHistoriaDerechaComillas {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titleNuestraHistoria {
         font-size: 30px;
     }
-    .p1NuestraHistoria,.p2NuestraHistoria{
+
+    .p1NuestraHistoria,
+    .p2NuestraHistoria {
         font-size: 14px;
     }
 
-    .hilera1, .hilera2{
+    .hilera1,
+    .hilera2 {
         width: 100%;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
     }
-    .hilera2{
+
+    .hilera2 {
         margin-bottom: 5vw;
     }
-   
+
 }

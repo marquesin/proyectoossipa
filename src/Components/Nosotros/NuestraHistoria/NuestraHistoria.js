@@ -25,6 +25,7 @@ export default function NuestraHistoria() {
           amet, consetetur sadipscing elitr, sed diam.
         </p>
       </div>
+      {/* Display none por cambios en el diseño ↓↓↓↓↓*/}
       <div className="nuestraHistoriaDerecha">
         <div className="hilera1">
           <div className="containerTilulos">
@@ -62,6 +63,13 @@ export default function NuestraHistoria() {
             </p>
           </div>
         </div>
+      </div>
+      {/* Display none por cambios en el diseño ↑↑↑↑↑*/}
+      <div className="nuestraHistoriaDerechaComillas">
+        <p className="pComilla"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod</p>
       </div>
     </section>
   );
