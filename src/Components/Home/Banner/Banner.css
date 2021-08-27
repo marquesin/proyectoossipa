@@ -1,9 +1,9 @@
 .banner {
-    background-image: url("../images/BannerHome.png");
+    background-image: url("../images/BannerHome2.png");
     background-size: cover;
     width: 100%;
     height: 100vh;
-   
+
 
 }
 
@@ -15,29 +15,51 @@
     justify-content: center;
     align-items: center;
 }
-.titleHome{
-color: #FFFFFF;
-font-size: 65px;
-font-weight: 700;
-text-shadow: 0px 3px 50px #4B4B4BE8;
+
+.titleHome {
+    color: #FFFFFF;
+    font-size: 57px;
+    font-weight: 700;
+    text-shadow: 0px 3px 50px #4B4B4BE8;
 }
-.titleColor{
-    color: #12BDC4;
+
+.titleColor {
+    color: #12D4DD;
 }
-.parrafoTitle{
-    width: 65%;
+
+.containerParrafoTitle {
+    display: flex;
+    justify-content: center;
+    opacity: 0.71;
+    /* mix-blend-mode: multiply; */
+    background-color: #616161;
+    border-color: #707070;
+    width: 55%;
+
+}
+
+.parrafoTitle {
+    width: 85%;
     font-size: 20px;
     font-weight: 500;
     color: #FFFFFF;
+    background-color: #616161;
+    border-color: #707070;
+    padding: 1%;
+    opacity: 1;
+
+
 }
 
-.containerbuttonBannerHome{
+.containerbuttonBannerHome {
     width: 30%;
     margin-top: 2%;
     display: flex;
     justify-content: space-around;
 }
-.buttonBannerHomeSo, .buttonBannerHomeNo{
+
+.buttonBannerHomeSo,
+.buttonBannerHomeNo {
     width: 198px;
     height: 63px;
     border: none;
@@ -45,51 +67,63 @@ text-shadow: 0px 3px 50px #4B4B4BE8;
     font-weight: 700;
     letter-spacing: 0;
     border-radius: 8px;
-   
+
 }
-.buttonBannerHomeSo{
+
+.buttonBannerHomeSo {
     background-color: #54A9BE;
     color: #707070;
     opacity: 1;
-     box-shadow: 0px 3px 6px #00000096;
+    box-shadow: 0px 3px 6px #00000096;
 }
-.buttonBannerHomeSo:hover{
-background-color: #3B7381 ;
-color: #FFFFFF;
-cursor: pointer;
+
+.buttonBannerHomeSo:hover {
+    background-color: #3B7381;
+    color: #FFFFFF;
+    cursor: pointer;
 }
-.buttonBannerHomeNo{
+
+.buttonBannerHomeNo {
     background-color: #626D71;
     box-shadow: 0px 3px 6px #000000A3;
     /* border: 2px solid #FFFFFF; */
     opacity: 1;
     color: #FFFFFF;
 }
-.buttonBannerHomeNo:hover{
+
+.buttonBannerHomeNo:hover {
     background-color: #313639;
     cursor: pointer;
 
 }
-@media screen  and (max-width: 1200px)
-{
-    .banner{
-        /* height: 100%; */
-        width: 100%;
+
+@media screen and (max-width: 1200px) {
+    .banner {
+        height: 200vw;
+        width: 100vw;
         margin: 0;
         padding: 0;
         background-image: none;
-        background-color: #D6D6D6;
+        /* background-color: #D6D6D6; */
+        background-image: url(../images/OSSIPA-Banner-mobile.png);
+        background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .titleHome{
-        font-size: 38px;
+
+    .titleHome {
+        font-size: 30px;
         width: 80%;
     }
-    .parrafoTitle{
-        font-size: 15px;
-        width: 75%;
+
+    .parrafoTitle {
+        /* font-size: 15px;
+        width: 75%; */
+        display: none;
     }
-    .containerbuttonBannerHome{display: none;}
+
+    .containerbuttonBannerHome {
+        display: none;
+    }
 }

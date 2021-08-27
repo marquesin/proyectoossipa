@@ -1,12 +1,14 @@
-.containerBannerContacte{
-    height: 412px;
+.containerBannerContacte {
+    height: 35vw;
     width: 100%;
-    background-color: #D8D8D8;
+    background-image: url(./images/Contacto.png);
+    /* background-color: #D8D8D8; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.titleContactanos{
+
+.titleContactanos {
     font-size: 67px;
     font-weight: 700;
     text-align: left;
@@ -16,13 +18,12 @@
     color: #FFFFFF;
 }
 
-.titleContactanosColor{
-    color:#6BBEC6 ;
+.titleContactanosColor {
+    color: #6BBEC6;
 }
 
 @media screen and (max-width:1200px) {
-    .titleContactanos{
+    .titleContactanos {
         font-size: 35px;
     }
 }
-

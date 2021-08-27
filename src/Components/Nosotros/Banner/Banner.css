@@ -1,13 +1,14 @@
-.bannerNos{
-    background-image: url( "./images/BannerNos.png");
+.bannerNos {
+    background-image: url("./images/Banner-Conocenos.png");
     background-size: cover;
     width: 100%;
-    height: 30vw;
+    height: 35vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.titeConocenosN{
+
+.titeConocenosN {
     font-weight: 700;
     font-size: 67px;
     text-align: left;
@@ -17,12 +18,12 @@
     opacity: 1;
 }
 
-@media screen  and (max-width: 1200px)
-{
-    .bannerNos{
+@media screen and (max-width: 1200px) {
+    .bannerNos {
         height: 60vw;
     }
-.titeConocenosN{
-    font-size: 38px;
-}
+
+    .titeConocenosN {
+        font-size: 38px;
+    }
 }

@@ -6,13 +6,11 @@ export default function Banner() {
     <div className="banner">
       <div className="containterIntroBanner">
         <h1 className="titleHome">
-          SLOGAN <span className="titleColor">PRINCIPAL</span> DE MARCA
+        Impulsamos el <span className="titleColor">desarrollo de negocios</span> en el sector combustibles e hidrocarburos.
         </h1>
-        <p className="parrafoTitle">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna ipscing elitr,
-          sed diam nonumy eirmod tempor invidunt ut labore et d
-        </p>
+        <div className="containerParrafoTitle"><p className="parrafoTitle">
+        Generamos soluciones eficientes para los procesos y actividades de la cadena de suministro y logística de combustibles e hidrocarburos.
+        </p></div>
         <div className="containerbuttonBannerHome">
           <button className="buttonBannerHomeSo">SOLUCIONES</button>
           <button className="buttonBannerHomeNo">NOSOTROS</button>
