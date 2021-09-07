@@ -4,7 +4,7 @@ import "./Blog.css";
 export default function Blog() {
   return (
     <section className="blog">
-      <h2 className="h2Blog">BLOG</h2>
+      <h2 className="h2Blog">LIGAS DE INTERÉS.</h2>
       <h3 className="Blogh3">TEMAS RECIENTES</h3>
       <div className="containerBlogs">
         <div className="containerBlog">

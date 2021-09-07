@@ -148,6 +148,9 @@ footer legend {
 .footer-contact-responsive {
   display: none;
 }
+.footer-section li{
+  text-align: left;
+}
 
 @media screen and (max-width: 1200px) {
   .footer-contact {

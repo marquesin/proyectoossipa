@@ -22,13 +22,14 @@
 }
 
 .logoHeader {
-    width: 200px;
+    width: 250px;
 }
 
 .containerButtonHeader {
     width: 45%;
     display: flex;
     justify-content: space-between;
+    margin-left: 10%;
 }
 
 .buttonHeader {

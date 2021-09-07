@@ -1,10 +1,10 @@
 .ServicioAmpliadoInfo{
-    width: 40%;
+    width: 47%;
     background-color: #53A6BB;
     display: flex;
    /* justify-content: center; */
     flex-direction: column;
-    padding: 5%;
+    padding: 3%;
 }
 .h4ServicioAmpliado{
     font-size: 41px;
@@ -12,8 +12,8 @@
     color: #FFFFFF;
     opacity: 1;
     letter-spacing: 0px;
-    margin-top: 15%;
-    text-align: right;
+    margin-top: 5%;
+    text-align: left;
     margin-right: 2%;
 }
 .pServicioAmpliado{
@@ -23,9 +23,26 @@
     font-size: 20px;
     text-align: left;
     font-weight: 500;
+    line-height:200%;
+    margin-bottom: 0;
 }
+.buttonServicioAmpliado{
+    height: 60px;
+    width: 170px;
+    margin-left: 70%;
+    box-shadow: 0px 3px 6px #000000A3;
+    border-radius: 8px;
+    opacity: 1;
+    background-color: #6BBEC6;
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 0;
 
-
+}
+.buttonServicioAmpliado:hover{
+    cursor: pointer;
+}
 .ServicioAmpliadoFoto{
     width: 50%;
     background-color: #D8D8D8;
@@ -59,6 +76,9 @@
     .ServicioAmpliadoFoto{
         width: 100%;
         height: 340px;
+    }
+    .buttonServicioAmpliado{
+        display: none;
     }
 
 

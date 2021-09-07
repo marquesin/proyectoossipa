@@ -29,7 +29,10 @@ export default function Footer() {
         <div className="footer-contact-single">
           <div className="text-block-contact">
             <h3>Visìtanos</h3>
-            <h5>Cascada, Jardínes del<br/> Pedregal, CDMX</h5>
+            <h5>
+              Cascada, Jardínes del
+              <br /> Pedregal, CDMX
+            </h5>
           </div>
           <img src={place} alt="" />
         </div>
@@ -52,7 +55,10 @@ export default function Footer() {
           </div>
           <div>
             <h3>Visìtanos</h3>
-            <h5>Cascada,<br></br> Jardínes del Pedregal,<br /> CDMX</h5>
+            <h5>
+              Cascada,<br></br> Jardínes del Pedregal,
+              <br /> CDMX
+            </h5>
           </div>
         </div>
       </section>
@@ -61,7 +67,9 @@ export default function Footer() {
         <div className="footer-column-1">
           <h3>Newsletter</h3>
           <h4>
-          Mantente informado y al día de los temas más relevantes de la industria de energía, combustibles e hidrocarburos directo en tu correo.
+            Mantente informado y al día de los temas más relevantes de la
+            industria de energía, combustibles e hidrocarburos directo en tu
+            correo.
           </h4>
           <h6 className="footer-proximamente">PRÓXIMAMENTE</h6>
           <div className="input-newsletter">
@@ -69,7 +77,7 @@ export default function Footer() {
             <span>e </span>
           </div>
         </div>
-        
+
         {/*-------------Fin Seccion de Newsletter --------------*/}
         {/*------------- Inicia Seccion informativa de links --------------*/}
         <div className="footer-column-2">
@@ -77,22 +85,22 @@ export default function Footer() {
             <h3>Servicios</h3>
             <ul className="footer-section">
               <li>
-                <a href="#">Servicio 1</a>
+                <a href="#">ASEA</a>
               </li>
               <li>
-                <a href="#">Servicio 2</a>
+                <a href="#">CRE</a>
               </li>
               <li>
-                <a href="#">Servicio 3</a>
+                <a href="#">SENER</a>
               </li>
               <li>
-                <a href="#">Servicio 4</a>
+                <a href="#">CONSULTORÍA</a>
               </li>
               <li>
-                <a href="#">Servicio 5</a>
+                <a href="#">ADMINISTRACIÓN</a>
               </li>
               <li>
-                <a href="#">Servicio 6</a>
+                <a href="#">NUEVOS NEGOCIOS</a>
               </li>
             </ul>
           </div>
@@ -127,7 +135,8 @@ export default function Footer() {
             alt="ossipa-logo-white"
           />
           <p>
-          Generamos soluciones eficientes para los procesos y actividades de la cadena de suministro y logística de combustibles e hidrocarburos.
+            Generamos soluciones eficientes para los procesos y actividades de
+            la cadena de suministro y logística de combustibles e hidrocarburos.
           </p>
           <div className="social-media-footer">
             <img src={fb} alt="facebook-icon" />

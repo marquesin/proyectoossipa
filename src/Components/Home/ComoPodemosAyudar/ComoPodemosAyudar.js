@@ -27,9 +27,9 @@ export default function ComoPodemosAyudar() {
         <span className="h2CPAColor">?</span>
       </h2>
       <p className="pCPA">
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-        voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+        Nos ocupamos de optimizar, revisar y mantenerte al tanto de todos los
+        procesos que tu negocio debe cumplir. Esto es lo que podemos hacer por
+        ti:
       </p>
       <div className="containerServiciosCPA">
         <div className="ServiciosCPA">

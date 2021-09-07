@@ -1,6 +1,7 @@
 import React from "react";
 import "./PorqueElegirnos.css";
 import Comilla from "./images/Comilla.svg";
+import ComillaInf from "./images/ComillasInf.svg";
 import Misiones from "./Misiones/Misiones";
 
 export default function PorqueElegirnos() {
@@ -8,40 +9,49 @@ export default function PorqueElegirnos() {
     <section className="containerPorqueElegirnos">
       <div className="containerTitleyMisiones">
         <h1 className="titlePorqueElegirnos">
-          POR QUÉ ELEGIRNOS<span className="titlePorqueElegirnosColor">.</span>
+          ¿POR QUÉ ELEGIRNOS?
+          {/* <span className="titlePorqueElegirnosColor">.</span> */}
         </h1>
         <Misiones />
       </div>
       <div className="containerTexsComillas">
-      <div className="containerTextComillas">
-        <div className="containerComilla">
-          <img
-            src={Comilla}
-            alt="Imagen de una comilla"
-            className="imageComilla"
-          />
+        <div className="containerTextComillas">
+          <div className="containerComilla">
+            <img
+              src={Comilla}
+              alt="Imagen de una comilla"
+              className="imageComilla"
+            />
+          </div>
+          <p className="pComilla">
+            Nos ayudaron a gestionar todas las regulaciones para la construcción
+            de nuestra terminal de almacenamiento. Avanzamos de forma eficiente
+            y oportuna en cada etapa del proyecto.
+          </p>
+          <div className="containerCitaInferior">
+            <p>Grupo Gasolinero del Pacífico</p>{" "}
+            <img src={ComillaInf} alt="Comilla de cita inferior" />
+          </div>
         </div>
-        <p className="pComilla">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-        </p>
+        <div className="containerTextComillas">
+          <div className="containerComilla">
+            <img
+              src={Comilla}
+              alt="Imagen de una comilla"
+              className="imageComilla"
+            />
+          </div>
+          <p className="pComilla">
+            Nos gusta la forma de trabajar de todo su equipo. Nos comunican en
+            todo momento el avance de los proyectos y trámites; nos apoyan para
+            capacitar e involucrar a todo nuestro equipo de trabajo.
+          </p>
+          <div className="containerCitaInferior">
+            <p>Naturgy de México</p>
+            <img src={ComillaInf} alt="Comilla de cita inferior" />
+          </div>
+        </div>
       </div>
-      <div className="containerTextComillas">
-        <div className="containerComilla">
-          <img
-            src={Comilla}
-            alt="Imagen de una comilla"
-            className="imageComilla"
-          />
-        </div>
-        <p className="pComilla">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-        </p>
-      </div></div>
     </section>
   );
 }

@@ -20,11 +20,13 @@ export default function Header() {
           <Link to="/">
             <button className="buttonHeader">HOME</button>
           </Link>
-          <button className="buttonHeader">SOLUCIONES</button>
           <Link to="/nosotros">
             <button className="buttonHeader">NOSOTROS</button>
           </Link>
-          <button className="buttonHeader">BLOG</button>
+          <Link to="/soluciones">
+            <button className="buttonHeader">SOLUCIONES</button>
+          </Link>
+          {/* <button className="buttonHeader">BLOG</button> */}
           <Link to="/contacto">
             <button className="buttonHeader">CONTACTO</button>
           </Link>

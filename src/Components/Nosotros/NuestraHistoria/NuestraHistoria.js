@@ -1,5 +1,7 @@
 import React from "react";
 import "./NuestraHistoria.css";
+import comillaOSup from "../PorqueElegirnos/images/ComillasOscurasSup.svg";
+import comillaOInf from "../PorqueElegirnos/images/ComillasOscurasInf.svg";
 
 export default function NuestraHistoria() {
   return (
@@ -8,21 +10,25 @@ export default function NuestraHistoria() {
         <h1 className="titleNuestraHistoria">
           NUESTRA HISTORIA<span className="titleNuestraHistoriaColor">.</span>
         </h1>
-        <p className="p1NuestraHistoria">
+        {/* <p className="p1NuestraHistoria">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna
-        </p>
+        </p> */}
         <p className="p2NuestraHistoria">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-          takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-          amet, consetetur sadipscing elitr, sed diam.
+          Grupo Ossipa nace como respuesta a las necesidades de nuestros
+          clientes pertenecientes a la cadena de suministro y logística final de
+          combustibles y otros hidrocarburos.
+          <br />
+          <br />
+          <br />
+          Desde su concepción, construcción, procesos regulatorios, hasta la
+          administración y seguimiento operativo.
+          <br />
+          <br />
+          <br />
+          Buscamos ser el brazo derecho de nuestros clientes en la ejecución de
+          procesos de ingeniería, asesoría regulatoria y administración de
+          operaciones.
         </p>
       </div>
       {/* Display none por cambios en el diseño ↓↓↓↓↓*/}
@@ -66,10 +72,19 @@ export default function NuestraHistoria() {
       </div>
       {/* Display none por cambios en el diseño ↑↑↑↑↑*/}
       <div className="nuestraHistoriaDerechaComillas">
-        <p className="pComilla"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod</p>
+        <div className="containerComilla">
+          <img src={comillaOSup} alt="Comillas cita" />
+        </div>
+        <br />
+        <p className="pComilla">
+          Nuestro compromiso es siempre contigo y tu negocio.
+          <br />
+          <br />
+          Resolvemos eficazmente y te acompañamos en el proceso.
+        </p>
+        <div className="ContainerComillaInf">
+          <img src={comillaOInf} alt="Comillas cita" />
+        </div>
       </div>
     </section>
   );

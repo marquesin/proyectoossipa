@@ -34,14 +34,10 @@ export default function Contactenos() {
           CONÓCENOS<span className="h2ConocenosColor">.</span>
         </h2>
         <p className="pConocenos">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-          et justo duo
+          Somos un grupo de especialistas enfocados en el desarrollo eficaz de
+          procesos de ingeniería, asesoría regulatoria y administración de las
+          operaciones relacionadas con la cadena de suministro y logística final
+          de combustibles y otros hidrocarburos.
         </p>
         <div className="continervaloresConocenos">
           <div className="valorConocenos">VALOR 1</div>

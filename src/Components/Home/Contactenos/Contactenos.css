@@ -51,6 +51,8 @@
     font-weight: 700;
     padding-top: 4%;
     margin-top: 4%;
+    background-color: #F9F9F9;
+    opacity: 1;
 }
 .texteaMayorInfo{
     margin-top: 1%;
@@ -63,7 +65,8 @@
     font-weight: 700;
     padding-top: 4%;
     margin-top: 4%;
-
+    background-color: #F9F9F9;
+    opacity: 1;
 }
 .buttonEnviarMayorInfo{
     height: 65px;
@@ -105,7 +108,7 @@
 width: 90%;
 height: 167px;
 align-self: center;
-text-align: right;
+text-align: left;
 letter-spacing: 0px;
 color: #767676;
 opacity: 1;

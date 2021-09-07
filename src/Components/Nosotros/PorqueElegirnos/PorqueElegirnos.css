@@ -49,6 +49,15 @@
     color: #FFFFFF;
     opacity: 1;
 }
+.containerCitaInferior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-style: italic;
+    color: #FFFFFF;
+    font-weight: 500;
+}
 
 @media screen and (max-width: 1200px) {
     .containerPorqueElegirnos {
