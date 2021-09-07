@@ -32,6 +32,7 @@ export default function ComoPodemosAyudar() {
         ti:
       </p>
       <div className="containerServiciosCPA">
+        {/* Servicio 1*/}
         <div className="ServiciosCPA">
           <button
             className={
@@ -58,8 +59,11 @@ export default function ComoPodemosAyudar() {
 
             <IconosCambiantesEnServicios hover={hover} click={despliega1} />
           </button>
-          <p className="pServiciosCPA">SERVICIO 1</p>
+          <p className="pServiciosCPA">ASEA</p>
         </div>
+        {/* Servicio 1*/}
+
+        {/* Servicio 2*/}
         <div className="ServiciosCPA">
           <button
             className={
@@ -86,8 +90,11 @@ export default function ComoPodemosAyudar() {
 
             <IconosCambiantesEnServicios hover={hover2} click={despliega2} />
           </button>
-          <p className="pServiciosCPA">SERVICIO 2</p>
+          <p className="pServiciosCPA">CRE</p>
         </div>
+
+        {/* Servicio 2*/}
+        {/* Servicio 3*/}
         <div className="ServiciosCPA">
           <button
             className={
@@ -119,9 +126,11 @@ export default function ComoPodemosAyudar() {
             className="pServiciosCPA"
             // id="pSectPueba"
           >
-            SERVICIO 3
+            SENER
           </p>
         </div>
+        {/* Servicio 3 */}
+        {/* Servicio 4*/}
         <div className="ServiciosCPA">
           <button
             className={
@@ -148,8 +157,10 @@ export default function ComoPodemosAyudar() {
 
             <IconosCambiantesEnServicios hover={hover4} click={despliega4} />
           </button>
-          <p className="pServiciosCPA">SERVICIO 4</p>
+          <p className="pServiciosCPA">CONSULTORÍA</p>
         </div>
+        {/* Servicio  4*/}
+        {/* Servicio 5*/}
         <div className="ServiciosCPA">
           <button
             className={
@@ -176,8 +187,10 @@ export default function ComoPodemosAyudar() {
 
             <IconosCambiantesEnServicios hover={hover5} click={despliega5} />
           </button>
-          <p className="pServiciosCPA">SERVICIO 5</p>
+          <p className="pServiciosCPA">ADMINISTRACIÓN</p>
         </div>
+        {/* Servicio 5*/}
+        {/* Servicio 6*/}
         <div className="ServiciosCPA">
           <button
             className={
@@ -204,8 +217,9 @@ export default function ComoPodemosAyudar() {
 
             <IconosCambiantesEnServicios hover={hover6} click={despliega6} />
           </button>
-          <p className="pServiciosCPA">SERVICIO 6</p>
+          <p className="pServiciosCPA">NUEVOS NEGOCIOS</p>
         </div>
+        {/* Servicio 6*/}
       </div>
       <Servicios
         despliega1={despliega1}
@@ -214,6 +228,12 @@ export default function ComoPodemosAyudar() {
         despliega4={despliega4}
         despliega5={despliega5}
         despliega6={despliega6}
+        setDespliga1={setDespliga1}
+        setDespliga2={setDespliga2}
+        setDespliga3={setDespliga3}
+        setDespliga4={setDespliga4}
+        setDespliga5={setDespliga5}
+        setDespliga6={setDespliga6}
       />
     </section>
   );

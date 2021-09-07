@@ -4,7 +4,7 @@ import "./Contenido.css";
 export default function Contenido() {
   return (
     <section className="containerContenidos">
-      <div className="containerItemContenido">
+      <div className="containerItemContenido" id="ASEA">
         <h2 className="titlesContenido">
           ASEA<samp className="titleContenidoColor">.</samp>
         </h2>
@@ -67,7 +67,7 @@ export default function Contenido() {
         <div className="simulacionImagen">IMAGEN</div>
         {/* <img src="" alt="" /> */}
       </div>
-      <div className="containerItemContenido">
+      <div className="containerItemContenido" id="CRE">
         <h2 className="titlesContenido">
           CRE<samp className="titleContenidoColor">.</samp>
         </h2>
@@ -105,7 +105,7 @@ export default function Contenido() {
         <div className="simulacionImagen">IMAGEN</div>
         {/* <img src="" alt="" /> */}
       </div>
-      <div className="containerItemContenido">
+      <div className="containerItemContenido" id="SENER">
         <h2 className="titlesContenido">
           SENER<samp className="titleContenidoColor">.</samp>
         </h2>
@@ -130,7 +130,7 @@ export default function Contenido() {
         <div className="simulacionImagen">IMAGEN</div>
         {/* <img src="" alt="" /> */}
       </div>
-      <div className="containerItemContenido">
+      <div className="containerItemContenido" id="CONSULTORIA">
         <h2 className="titlesContenido">
           CONSULTORÍA<samp className="titleContenidoColor">.</samp>
         </h2>
@@ -172,7 +172,7 @@ export default function Contenido() {
         <div className="simulacionImagen">IMAGEN</div>
         {/* <img src="" alt="" /> */}
       </div>
-      <div className="containerItemContenido">
+      <div className="containerItemContenido" id="ADMINISTRACION">
         <h2 className="titlesContenido">
           ADMINISTRACIÓN<samp className="titleContenidoColor">.</samp>
         </h2>
@@ -201,7 +201,7 @@ export default function Contenido() {
         <div className="simulacionImagen">IMAGEN</div>
         {/* <img src="" alt="" /> */}
       </div>
-      <div className="containerItemContenido">
+      <div className="containerItemContenido" id="NUEVOS-NEGOCIOS">
         <h2 className="titlesContenido">
           NUEVOS NEGOCIOS<samp className="titleContenidoColor">.</samp>
         </h2>

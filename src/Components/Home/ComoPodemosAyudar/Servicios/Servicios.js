@@ -1,6 +1,8 @@
 import React from "react";
 import "./Servicios.css";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+import left from "../images/caret-left-solid.svg";
+import right from "../images/caret-right-solid.svg";
 
 export default function Servicios(props) {
   return (
@@ -22,11 +24,48 @@ export default function Servicios(props) {
                 <li>Licencia de Funcionamiento (LF - ESTACIÓN DE SERVICIO)</li>
               </ul>
             </p>
-            <Link to="/soluciones">
+            <HashLink to="/soluciones#ASEA">
               <button className="buttonServicioAmpliado">Ver más</button>
-            </Link>
+            </HashLink>
           </div>
-          <div className="ServicioAmpliadoFoto">imagen</div>
+          <div className="ServicioAmpliadoFoto">
+            <button
+              className="buttonServiciosResponsive"
+              onClick={() => {
+                props.setDespliga1(false);
+                props.setDespliga2(false);
+                props.setDespliga3(false);
+                props.setDespliga4(false);
+                props.setDespliga5(false);
+                props.setDespliga6(true);
+              }}
+            >
+              <img
+                src={left}
+                alt=""
+                className="iconButtonServiciosAmpliado"
+                className="left"
+              />
+            </button>
+            <button
+              className="buttonServiciosResponsive"
+              onClick={() => {
+                props.setDespliga1(false);
+                props.setDespliga2(true);
+                props.setDespliga3(false);
+                props.setDespliga4(false);
+                props.setDespliga5(false);
+                props.setDespliga6(false);
+              }}
+            >
+              <img
+                src={right}
+                alt=""
+                className="iconButtonServiciosAmpliado"
+                className="right"
+              />
+            </button>
+          </div>
         </div>
       ) : props.despliega2 ? (
         //   {/* SERVICIO 1 */}
@@ -48,11 +87,49 @@ export default function Servicios(props) {
                 <li>Sistema de Gestión de Medición</li>
               </ul>
             </p>
-            <Link to="/soluciones">
+            <HashLink to="/soluciones#CRE">
               <button className="buttonServicioAmpliado">Ver más</button>
-            </Link>
+            </HashLink>
           </div>
-          <div className="ServicioAmpliadoFoto">imagen</div>
+          <div className="ServicioAmpliadoFoto">
+            {" "}
+            <button
+              className="buttonServiciosResponsive"
+              onClick={() => {
+                props.setDespliga1(true);
+                props.setDespliga2(false);
+                props.setDespliga3(false);
+                props.setDespliga4(false);
+                props.setDespliga5(false);
+                props.setDespliga6(false);
+              }}
+            >
+              <img
+                src={left}
+                alt=""
+                className="iconButtonServiciosAmpliado"
+                className="left"
+              />
+            </button>
+            <button
+              className="buttonServiciosResponsive"
+              onClick={() => {
+                props.setDespliga1(false);
+                props.setDespliga2(false);
+                props.setDespliga3(true);
+                props.setDespliga4(false);
+                props.setDespliga5(false);
+                props.setDespliga6(false);
+              }}
+            >
+              <img
+                src={right}
+                alt=""
+                className="iconButtonServiciosAmpliado"
+                className="right"
+              />
+            </button>
+          </div>
         </div>
       ) : props.despliega3 ? (
         //   {/* SERVICIO 2 */}
@@ -71,11 +148,49 @@ export default function Servicios(props) {
                 <li> Permiso de Importación</li>
               </ul>
             </p>
-            <Link to="/soluciones">
+            <HashLink to="/soluciones#SENER">
               <button className="buttonServicioAmpliado">Ver más</button>
-            </Link>
+            </HashLink>
           </div>
-          <div className="ServicioAmpliadoFoto">imagen</div>
+          <div className="ServicioAmpliadoFoto">
+            {" "}
+            <button
+              className="buttonServiciosResponsive"
+              onClick={() => {
+                props.setDespliga1(false);
+                props.setDespliga2(true);
+                props.setDespliga3(false);
+                props.setDespliga4(false);
+                props.setDespliga5(false);
+                props.setDespliga6(false);
+              }}
+            >
+              <img
+                src={left}
+                alt=""
+                className="iconButtonServiciosAmpliado"
+                className="left"
+              />
+            </button>
+            <button
+              className="buttonServiciosResponsive"
+              onClick={() => {
+                props.setDespliga1(false);
+                props.setDespliga2(false);
+                props.setDespliga3(false);
+                props.setDespliga4(true);
+                props.setDespliga5(false);
+                props.setDespliga6(false);
+              }}
+            >
+              <img
+                src={right}
+                alt=""
+                className="iconButtonServiciosAmpliado"
+                className="right"
+              />
+            </button>
+          </div>
         </div>
       ) : props.despliega4 ? (
         //   {/* SERVICIO 3 */}
@@ -102,11 +217,49 @@ export default function Servicios(props) {
                 </li>
               </ul>
             </p>
-            <Link to="/soluciones">
+            <HashLink to="/soluciones#CONSULTORIA">
               <button className="buttonServicioAmpliado">Ver más</button>
-            </Link>
+            </HashLink>
           </div>
-          <div className="ServicioAmpliadoFoto">imagen</div>
+          <div className="ServicioAmpliadoFoto">
+            {" "}
+            <button
+              className="buttonServiciosResponsive"
+              onClick={() => {
+                props.setDespliga1(false);
+                props.setDespliga2(false);
+                props.setDespliga3(true);
+                props.setDespliga4(false);
+                props.setDespliga5(false);
+                props.setDespliga6(false);
+              }}
+            >
+              <img
+                src={left}
+                alt=""
+                className="iconButtonServiciosAmpliado"
+                className="left"
+              />
+            </button>
+            <button
+              className="buttonServiciosResponsive"
+              onClick={() => {
+                props.setDespliga1(false);
+                props.setDespliga2(false);
+                props.setDespliga3(false);
+                props.setDespliga4(false);
+                props.setDespliga5(true);
+                props.setDespliga6(false);
+              }}
+            >
+              <img
+                src={right}
+                alt=""
+                className="iconButtonServiciosAmpliado"
+                className="right"
+              />
+            </button>
+          </div>
         </div>
       ) : props.despliega5 ? (
         //   {/* SERVICIO 4 */}
@@ -132,11 +285,49 @@ export default function Servicios(props) {
                 </li>
               </ul>
             </p>
-            <Link to="/soluciones">
+            <HashLink to="/soluciones#ADMINISTRACION">
               <button className="buttonServicioAmpliado">Ver más</button>
-            </Link>
+            </HashLink>
           </div>
-          <div className="ServicioAmpliadoFoto">imagen</div>
+          <div className="ServicioAmpliadoFoto">
+            {" "}
+            <button
+              className="buttonServiciosResponsive"
+              onClick={() => {
+                props.setDespliga1(false);
+                props.setDespliga2(false);
+                props.setDespliga3(false);
+                props.setDespliga4(true);
+                props.setDespliga5(false);
+                props.setDespliga6(false);
+              }}
+            >
+              <img
+                src={left}
+                alt=""
+                className="iconButtonServiciosAmpliado"
+                className="left"
+              />
+            </button>
+            <button
+              className="buttonServiciosResponsive"
+              onClick={() => {
+                props.setDespliga1(false);
+                props.setDespliga2(false);
+                props.setDespliga3(false);
+                props.setDespliga4(false);
+                props.setDespliga5(false);
+                props.setDespliga6(true);
+              }}
+            >
+              <img
+                src={right}
+                alt=""
+                className="iconButtonServiciosAmpliado"
+                className="right"
+              />
+            </button>
+          </div>
         </div>
       ) : props.despliega6 ? (
         //   {/* SERVICIO 5 */}
@@ -157,15 +348,54 @@ export default function Servicios(props) {
                 <li> Evaluación de predio</li>
               </ul>
             </p>
-            <Link to="/soluciones">
+            <HashLink to="/soluciones#NUEVOS-NEGOCIOS">
               <button className="buttonServicioAmpliado">Ver más</button>
-            </Link>
+            </HashLink>
           </div>
-          <div className="ServicioAmpliadoFoto">imagen</div>
+          <div className="ServicioAmpliadoFoto">
+            {" "}
+            <button
+              className="buttonServiciosResponsive"
+              onClick={() => {
+                props.setDespliga1(false);
+                props.setDespliga2(false);
+                props.setDespliga3(false);
+                props.setDespliga4(false);
+                props.setDespliga5(true);
+                props.setDespliga6(false);
+              }}
+            >
+              <img
+                src={left}
+                alt=""
+                className="iconButtonServiciosAmpliado"
+                className="left"
+              />
+            </button>
+            <button
+              className="buttonServiciosResponsive"
+              onClick={() => {
+                props.setDespliga1(true);
+                props.setDespliga2(false);
+                props.setDespliga3(false);
+                props.setDespliga4(false);
+                props.setDespliga5(false);
+                props.setDespliga6(false);
+              }}
+            >
+              <img
+                src={right}
+                alt=""
+                className="iconButtonServiciosAmpliado"
+                className="right"
+              />
+            </button>
+          </div>
         </div>
       ) : (
+        //  {/* SERVICIO 6 */}
         <div className="servicioAmpliado">
-          <div className="ServicioAmpliadoInfo">
+          <div className="ServicioAmpliadoInfo" id="ASEA">
             <h4 className="h4ServicioAmpliado">ASEA</h4>
             <p className="pServicioAmpliado">
               La Agencia de Seguridad, Energía y Ambiente se encarga de
@@ -179,14 +409,50 @@ export default function Servicios(props) {
                 <li>Licencia de Funcionamiento (LF - ESTACIÓN DE SERVICIO)</li>
               </ul>
             </p>
-            <Link to="/soluciones">
+            <HashLink to="/soluciones#ASEA">
               <button className="buttonServicioAmpliado">Ver más</button>
-            </Link>
+            </HashLink>
           </div>
-          <div className="ServicioAmpliadoFoto">imagen</div>
+          <div className="ServicioAmpliadoFoto">
+            <button
+              className="buttonServiciosResponsive"
+              onClick={() => {
+                props.setDespliga1(false);
+                props.setDespliga2(false);
+                props.setDespliga3(false);
+                props.setDespliga4(false);
+                props.setDespliga5(false);
+                props.setDespliga6(true);
+              }}
+            >
+              <img
+                src={left}
+                alt=""
+                className="iconButtonServiciosAmpliado"
+                className="left"
+              />
+            </button>
+            <button
+              className="buttonServiciosResponsive"
+              onClick={() => {
+                props.setDespliga1(false);
+                props.setDespliga2(true);
+                props.setDespliga3(false);
+                props.setDespliga4(false);
+                props.setDespliga5(false);
+                props.setDespliga6(false);
+              }}
+            >
+              <img
+                src={right}
+                alt=""
+                className="iconButtonServiciosAmpliado"
+                className="right"
+              />
+            </button>
+          </div>
         </div>
       )}
-      {/* SERVICIO 6 */}
     </section>
   );
 }
