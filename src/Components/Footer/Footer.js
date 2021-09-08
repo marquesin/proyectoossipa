@@ -7,6 +7,7 @@ import twitter from "./imgs/twitter_white_icon.svg";
 import phone from "./imgs/icon-phone.svg";
 import mail from "./imgs/mail-icon.svg";
 import place from "./imgs/place-icon.svg";
+import { HashLink } from "react-router-hash-link";
 
 export default function Footer() {
   return (
@@ -37,7 +38,7 @@ export default function Footer() {
           <img src={place} alt="" />
         </div>
       </section>
-
+      {/* Seccion modificada para responsive */}
       <section className="footer-contact-responsive">
         <div className="containerIconFooterContact">
           <img src={phone} alt="" />
@@ -62,6 +63,7 @@ export default function Footer() {
           </div>
         </div>
       </section>
+      {/* Seccion modificada para responsive */}
       <section className="footer-info">
         {/*-------------Inicia Seccion de Newsletter --------------*/}
         <div className="footer-column-1">
@@ -84,35 +86,51 @@ export default function Footer() {
           <div className="footer-solutions-column">
             <h3>Servicios</h3>
             <ul className="footer-section">
-              <li>
-                <a href="#">ASEA</a>
-              </li>
-              <li>
-                <a href="#">CRE</a>
-              </li>
-              <li>
-                <a href="#">SENER</a>
-              </li>
-              <li>
-                <a href="#">CONSULTORÍA</a>
-              </li>
-              <li>
-                <a href="#">ADMINISTRACIÓN</a>
-              </li>
-              <li>
-                <a href="#">NUEVOS NEGOCIOS</a>
-              </li>
+              <HashLink to="/soluciones#ASEA">
+                <li>
+                  <a>ASEA</a>
+                </li>
+              </HashLink>
+              <HashLink to="/soluciones#CRE">
+                <li>
+                  <a href="#">CRE</a>
+                </li>
+              </HashLink>
+              <HashLink to="/soluciones#SENER">
+                <li>
+                  <a href="#">SENER</a>
+                </li>
+              </HashLink>
+              <HashLink to="/soluciones#CONSULTORÍA">
+                <li>
+                  <a href="#">CONSULTORÍA</a>
+                </li>
+              </HashLink>
+              <HashLink to="/soluciones#ADMINISTRACIÓN">
+                <li>
+                  <a href="#">ADMINISTRACIÓN</a>
+                </li>
+              </HashLink>
+              <HashLink to="/soluciones#NUEVOS-NEGOCIOS">
+                <li>
+                  <a href="#">NUEVOS NEGOCIOS</a>
+                </li>
+              </HashLink>
             </ul>
           </div>
           <div className="footer-solutions-column">
             <h3>Compañía</h3>
             <ul className="footer-solutions">
-              <li>
-                <a href="#">Nosotros</a>
-              </li>
-              <li>
-                <a href="#">Soluciones</a>
-              </li>
+              <HashLink to="/nosotros#NOS">
+                <li>
+                  <a href="#">Nosotros</a>
+                </li>
+              </HashLink>
+              <HashLink to="/soluciones#SOLUCIONES">
+                <li>
+                  <a href="#">Soluciones</a>
+                </li>
+              </HashLink>
               {/* <li>
                 <a href="#">Servicio 1</a>
               </li>
@@ -126,7 +144,6 @@ export default function Footer() {
           </div>
         </div>
         {/*------------- Fin de Seccion informativa de links --------------*/}
-
         {/*-------------Inicia Seccion OSSIPA --------------*/}
         <div className="footer-column-3">
           <img
@@ -143,10 +160,23 @@ export default function Footer() {
             <img src={twitter} alt="twitter-icon" />
             <img src={linkedin} alt="linkedin-icon" />
           </div>
-          <a href="#">Aviso de Privacidad</a>
+          <a href="#" className="avisoDePrivacidad">
+            Aviso de Privacidad
+          </a>
         </div>
+
         {/*-------------Termina Seccion de OSSIPA --------------*/}
       </section>
+      <div>
+        <div className="social-media-footerResponsive">
+          <img src={fb} alt="facebook-icon" />
+          <img src={twitter} alt="twitter-icon" />
+          <img src={linkedin} alt="linkedin-icon" />
+        </div>
+        <a href="#" className="avisoDePrivacidadResponsive">
+          Aviso de Privacidad
+        </a>
+      </div>
       <legend>2021. OSSIPA. Todos los derechos reservados.</legend>
     </footer>
   );

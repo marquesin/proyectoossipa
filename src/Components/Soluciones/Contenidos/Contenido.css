@@ -62,3 +62,23 @@
     height: 470px;
     background-color: #D0D0D0;
 }
+
+@media screen and (max-width: 1200px) {
+    .containerItemContenido {
+        width: 90%;
+    }
+    .titlesContenido{
+        font-size: 25px;
+    }
+    .pContenidos{
+        font-size: 17px;
+    }
+   
+    .ulContenidos{
+        font-size: 15px;
+    }
+    .ulContenidos li samp{
+        font-size: 20px;
+    }
+   
+}

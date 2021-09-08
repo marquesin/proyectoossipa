@@ -27,3 +27,21 @@
     font-size: 19px;
     color: #FFFFFF;
 }
+.buttonContactameComoPodemosAyudarte:hover{
+    background-color: #3B7381;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .containerComoPodemosAyudarte{
+        height: 250px;
+    }
+    .titleComoPodemosAyudarte{
+        font-size: 30px;
+    }
+    .buttonContactameComoPodemosAyudarte{
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+    }
+}

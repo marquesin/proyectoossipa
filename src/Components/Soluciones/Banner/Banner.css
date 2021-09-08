@@ -20,3 +20,14 @@
     font-weight: 700;
     font-size: 60px;
 }
+
+@media screen and (max-width: 1200px) {
+    .bannerSolu{
+        height: 65vw;
+        width: 100%;
+    }
+.titleSolu{
+    font-size: 30px;
+}
+    
+}

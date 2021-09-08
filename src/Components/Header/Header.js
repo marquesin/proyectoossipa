@@ -6,6 +6,7 @@ import iconTwi from "./images/IconTwitter.svg";
 import iconIn from "./images/IconIn.svg";
 import { Link } from "react-router-dom";
 import iconMenu from "./images/bars-solid.svg";
+import { HashLink } from "react-router-hash-link";
 
 export default function Header() {
   const [menuDes, setMenuDes] = useState(false);
@@ -17,19 +18,19 @@ export default function Header() {
           <img src={logo} alt="Logo de la empresa" className="logoHeader" />
         </div>
         <div className="containerButtonHeader">
-          <Link to="/">
+          <HashLink to="/#bannerHome">
             <button className="buttonHeader">HOME</button>
-          </Link>
-          <Link to="/nosotros">
+          </HashLink>
+          <HashLink to="/nosotros#NOS">
             <button className="buttonHeader">NOSOTROS</button>
-          </Link>
-          <Link to="/soluciones">
+          </HashLink>
+          <HashLink to="/soluciones#SOLUCIONES">
             <button className="buttonHeader">SOLUCIONES</button>
-          </Link>
+          </HashLink>
           {/* <button className="buttonHeader">BLOG</button> */}
-          <Link to="/contacto">
+          <HashLink to="/contacto#bannerContacto">
             <button className="buttonHeader">CONTACTO</button>
-          </Link>
+          </HashLink>
         </div>
         <div className="containerIconHeader">
           <img src={iconFace} alt="Icono de Facebook" className="iconosRedes" />
@@ -50,17 +51,17 @@ export default function Header() {
       {menuDes ? (
         <div className="containerMenuDesplegable">
           <div className="containerButtonHeaderDesplegable">
-            <Link to="/">
+            <HashLink to="/#bannerHomeD">
               <button className="buttonHeaderDesplegable">HOME</button>
-            </Link>
+            </HashLink>
             <button className="buttonHeaderDesplegable">SOLUCIONES</button>
-            <Link to="/nosotros">
+            <HashLink to="/nosotros#bannerNosotrosD">
               <button className="buttonHeaderDesplegable">NOSOTROS</button>
-            </Link>
-            <button className="buttonHeaderDesplegable">BLOG</button>
-            <Link to="/contacto">
+            </HashLink>
+            {/* <button className="buttonHeaderDesplegable">BLOG</button> */}
+            <HashLink to="/contacto#bannerContactoD">
               <button className="buttonHeaderDesplegable">CONTACTO</button>
-            </Link>
+            </HashLink>
           </div>
           <div className="containerIconHeaderDesplegable">
             <img

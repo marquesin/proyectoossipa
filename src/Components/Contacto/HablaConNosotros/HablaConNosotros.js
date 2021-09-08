@@ -28,7 +28,7 @@ export default function HablaConNosotros() {
   }
   return (
     <section className="hablaConNos">
-      <h2 className="titleHablaConNosotros">
+      <h2 className="titleHablaConNosotros" id="contacto">
         HABLA CON NOSOTROS<span className="titleHablaConNosotrosColor">.</span>
       </h2>
       <div className="hileraFormVisit">
