@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import "./Header.css";
 import logo from "./images/LogoHeader.svg";
-import iconFace from "./images/IconFacebook.svg";
-import iconTwi from "./images/IconTwitter.svg";
-import iconIn from "./images/IconIn.svg";
-import { Link } from "react-router-dom";
+import iconFace from "./images/link_fb_svg_ppt_.svg";
+import iconIn from "./images/logo_link-svg-ppt.svg";
 import iconMenu from "./images/bars-solid.svg";
 import { HashLink } from "react-router-hash-link";
 
@@ -33,9 +31,15 @@ export default function Header() {
           </HashLink>
         </div>
         <div className="containerIconHeader">
-          <img src={iconFace} alt="Icono de Facebook" className="iconosRedes" />
+          <button className="iconosRedes">
+            <img src={iconFace} alt="Icono de Facebook" />
+          </button>
+          <button className="iconosRedes">
+            <img src={iconIn} alt="Icono de In" />
+          </button>
+          {/* <img src={iconFace} alt="Icono de Facebook" className="iconosRedes" />
           <img src={iconTwi} alt="Icono de Twitter" className="iconosRedes" />
-          <img src={iconIn} alt="Icono de In" className="iconosRedes" />
+          <img src={iconIn} alt="Icono de In" className="iconosRedes" /> */}
         </div>
       </div>
       <div className="containerHeaderResponsive">
@@ -54,7 +58,9 @@ export default function Header() {
             <HashLink to="/#bannerHomeD">
               <button className="buttonHeaderDesplegable">HOME</button>
             </HashLink>
-            <button className="buttonHeaderDesplegable">SOLUCIONES</button>
+            <HashLink to="/soluciones#SOLUCIONES">
+              <button className="buttonHeaderDesplegable">SOLUCIONES</button>
+            </HashLink>
             <HashLink to="/nosotros#bannerNosotrosD">
               <button className="buttonHeaderDesplegable">NOSOTROS</button>
             </HashLink>
@@ -67,11 +73,6 @@ export default function Header() {
             <img
               src={iconFace}
               alt="Icono de Facebook"
-              className="iconosRedesResponsive"
-            />
-            <img
-              src={iconTwi}
-              alt="Icono de Twitter"
               className="iconosRedesResponsive"
             />
             <img

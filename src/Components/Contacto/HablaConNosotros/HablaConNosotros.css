@@ -17,10 +17,6 @@
     opacity: 1;
     font-size: 41px;
 }
-.titleHablaConNosotrosColor{
-    color: #6BBEC6;
-}
-
 
 .hileraFormVisit{
     display: flex;
@@ -77,6 +73,14 @@
 .buttonEnviarContactenos:hover{
     background-color: #313639;
 }
+.pPrivacidad{
+    text-align: left;
+    color: #767676;
+    font-weight: 500;
+}
+.aPrivacidad{
+    color: #54A9BE;
+}
 
 .containerVisitanos{
     width: 35%;
@@ -92,6 +96,10 @@
     align-items: flex-start;
     margin-top: 1%;
 }
+.iconContactenos{
+    width: 40px;
+    height: 40px;
+}
 
 .CInfoVisit{
     display: flex;
@@ -104,12 +112,16 @@
     letter-spacing: 0px;
     opacity: 1;
     font-size: 18px;
-    /* border-right: solid 3px #707070; */
+    border-right: solid 3px #707070;
+    border-radius: 5%;
+    width: 70%;
 }
 
 .infoVisitTitle{
     font-weight: 700;
-    text-align: left;
+    font-size: 18px;
+    /* text-align: left; */
+    width: 100%;
 }
 
 .infoSubVisitTitle{
@@ -119,7 +131,7 @@
     display: flex;
     align-items: center;
     align-content: center;
-    height: 50%;
+    height: 100%;
      
 }
 

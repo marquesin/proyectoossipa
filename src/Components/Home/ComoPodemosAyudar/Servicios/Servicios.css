@@ -12,9 +12,10 @@
     color: #FFFFFF;
     opacity: 1;
     letter-spacing: 0px;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     text-align: left;
-    margin-right: 2%;
+    /* margin-right: 2%; */
+    margin: 1%;
 }
 .pServicioAmpliado{
     height: 500px;
@@ -29,15 +30,14 @@
 .buttonServicioAmpliado{
     height: 60px;
     width: 170px;
-    margin-left: 70%;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
     box-shadow: 0px 3px 6px #000000A3;
     border-radius: 8px;
-    opacity: 1;
-    background-color: #6BBEC6;
-    color: #FFFFFF;
     font-size: 19px;
     font-weight: 700;
     margin-top: 0;
+    background-color: #53A6BB;
 
 }
 .buttonServicioAmpliado:hover{

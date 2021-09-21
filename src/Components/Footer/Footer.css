@@ -19,6 +19,9 @@ footer a {
   text-decoration: none;
   color: white;
 }
+footer a:hover{
+  color: #6BBEC6;
+}
 
 .footer-contact {
   padding: 15px 0;

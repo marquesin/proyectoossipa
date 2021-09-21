@@ -3,7 +3,7 @@ import "./Footer.css";
 import logofooter from "./imgs/ossipa_white.svg";
 import fb from "./imgs/fb_white_icon.svg";
 import linkedin from "./imgs/linkedin_white_icon.svg";
-import twitter from "./imgs/twitter_white_icon.svg";
+// import twitter from "./imgs/twitter_white_icon.svg";
 import phone from "./imgs/icon-phone.svg";
 import mail from "./imgs/mail-icon.svg";
 import place from "./imgs/place-icon.svg";
@@ -16,14 +16,14 @@ export default function Footer() {
         <div className="footer-contact-single">
           <div className="text-block-contact">
             <h3>Márcanos</h3>
-            <h5>+52 1 55 2909 9922 </h5>
+            <h5>+52 1 55 3673 6747 </h5>
           </div>
           <img src={phone} alt="" />
         </div>
         <div className="footer-contact-single">
           <div className="text-block-contact">
             <h3>Mándanos un mail</h3>
-            <h5>calidad@ossipa.com.mx </h5>
+            <h5>contacto@ossipa.com </h5>
           </div>
           <img src={mail} alt="" />
         </div>
@@ -48,11 +48,11 @@ export default function Footer() {
         <div className="containerInfoContact">
           <div>
             <h3>Márcanos</h3>
-            <h5>+52 1 55 2909 9922</h5>
+            <h5>+52 1 55 3673 6747</h5>
           </div>
           <div>
             <h3>Mándanos un mail</h3>
-            <h5>contacto@ossipa.com.mx </h5>
+            <h5>contacto@ossipa.com</h5>
           </div>
           <div>
             <h3>Visìtanos</h3>
@@ -157,7 +157,7 @@ export default function Footer() {
           </p>
           <div className="social-media-footer">
             <img src={fb} alt="facebook-icon" />
-            <img src={twitter} alt="twitter-icon" />
+            {/* <img src={twitter} alt="twitter-icon" /> */}
             <img src={linkedin} alt="linkedin-icon" />
           </div>
           <a href="#" className="avisoDePrivacidad">
@@ -170,7 +170,7 @@ export default function Footer() {
       <div>
         <div className="social-media-footerResponsive">
           <img src={fb} alt="facebook-icon" />
-          <img src={twitter} alt="twitter-icon" />
+          {/* <img src={twitter} alt="twitter-icon" /> */}
           <img src={linkedin} alt="linkedin-icon" />
         </div>
         <a href="#" className="avisoDePrivacidadResponsive">

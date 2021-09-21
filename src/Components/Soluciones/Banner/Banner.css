@@ -11,7 +11,7 @@
 .titleSolu{
     border: 1px solid var(--unnamed-color-707070);
     background: #616161 0% 0% no-repeat padding-box;
-    /* mix-blend-mode: multiply; */
+    mix-blend-mode:hard-light;
     border: 1px solid #707070;
     opacity: 0.71;
     color: #FFFFFF;

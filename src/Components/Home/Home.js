@@ -14,7 +14,7 @@ export default function Home() {
       <Banner />
       <Contactenos />
       <ComoPodemosAyudar />
-      <Blog />
+      {/* <Blog /> */}
       <Footer />
     </main>
   );

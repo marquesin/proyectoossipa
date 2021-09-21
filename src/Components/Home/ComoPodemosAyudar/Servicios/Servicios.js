@@ -5,71 +5,74 @@ import left from "../images/caret-left-solid.svg";
 import right from "../images/caret-right-solid.svg";
 
 export default function Servicios(props) {
+  var Servicio1 = () => (
+    <div className="servicioAmpliado">
+      <div className="ServicioAmpliadoInfo">
+        <h4 className="h4ServicioAmpliado">ASEA</h4>
+        <p className="pServicioAmpliado">
+          La Agencia de Seguridad, Energía y Ambiente se encarga de supervisar
+          la seguridad industrial y operativa relacionada a la protección del
+          medio ambiente. Nosotros te acompañamos y asesoramos para cumplir con
+          cada uno de sus requerimientos.
+          <ul>
+            <li>Manifestación de Impacto Ambiental (MIA) </li>
+            <li>SASISOPA</li>
+            <li>Estudio de Riesgo Ambiental (ERA)</li>
+            <li>Licencia de Funcionamiento (LF - ESTACIÓN DE SERVICIO)</li>
+          </ul>
+        </p>
+        <HashLink to="/soluciones#ASEA">
+          <button className="buttonServicioAmpliado">Ver más</button>
+        </HashLink>
+      </div>
+      <div className="ServicioAmpliadoFoto">
+        <button
+          className="buttonServiciosResponsive"
+          onClick={() => {
+            props.setDespliga1(false);
+            props.setDespliga2(false);
+            props.setDespliga3(false);
+            props.setDespliga4(false);
+            props.setDespliga5(false);
+            props.setDespliga6(true);
+          }}
+        >
+          <img
+            src={left}
+            alt=""
+            className="iconButtonServiciosAmpliado"
+            className="left"
+          />
+        </button>
+        <button
+          className="buttonServiciosResponsive"
+          onClick={() => {
+            props.setDespliga1(false);
+            props.setDespliga2(true);
+            props.setDespliga3(false);
+            props.setDespliga4(false);
+            props.setDespliga5(false);
+            props.setDespliga6(false);
+          }}
+        >
+          <img
+            src={right}
+            alt=""
+            className="iconButtonServiciosAmpliado"
+            className="right"
+          />
+        </button>
+      </div>
+    </div>
+  );
+
   return (
     <section>
       {/* SERVICIO 1 */}
       {props.despliega1 ? (
-        <div className="servicioAmpliado">
-          <div className="ServicioAmpliadoInfo">
-            <h4 className="h4ServicioAmpliado">ASEA</h4>
-            <p className="pServicioAmpliado">
-              La Agencia de Seguridad, Energía y Ambiente se encarga de
-              supervisar la seguridad industrial y operativa relacionada a la
-              protección del medio ambiente. Nosotros te acompañamos y
-              asesoramos para cumplir con cada uno de sus requerimientos.
-              <ul>
-                <li>Manifestación de Impacto Ambiental (MIA) </li>
-                <li>SASISOPA</li>
-                <li>Estudio de Riesgo Ambiental (ERA)</li>
-                <li>Licencia de Funcionamiento (LF - ESTACIÓN DE SERVICIO)</li>
-              </ul>
-            </p>
-            <HashLink to="/soluciones#ASEA">
-              <button className="buttonServicioAmpliado">Ver más</button>
-            </HashLink>
-          </div>
-          <div className="ServicioAmpliadoFoto">
-            <button
-              className="buttonServiciosResponsive"
-              onClick={() => {
-                props.setDespliga1(false);
-                props.setDespliga2(false);
-                props.setDespliga3(false);
-                props.setDespliga4(false);
-                props.setDespliga5(false);
-                props.setDespliga6(true);
-              }}
-            >
-              <img
-                src={left}
-                alt=""
-                className="iconButtonServiciosAmpliado"
-                className="left"
-              />
-            </button>
-            <button
-              className="buttonServiciosResponsive"
-              onClick={() => {
-                props.setDespliga1(false);
-                props.setDespliga2(true);
-                props.setDespliga3(false);
-                props.setDespliga4(false);
-                props.setDespliga5(false);
-                props.setDespliga6(false);
-              }}
-            >
-              <img
-                src={right}
-                alt=""
-                className="iconButtonServiciosAmpliado"
-                className="right"
-              />
-            </button>
-          </div>
-        </div>
-      ) : props.despliega2 ? (
-        //   {/* SERVICIO 1 */}
-
+        Servicio1()
+      ) : //   {/* SERVICIO 1 */}
+      props.despliega2 ? (
         //   {/* SERVICIO 2 */}
         <div className="servicioAmpliado">
           <div className="ServicioAmpliadoInfo">
@@ -393,66 +396,9 @@ export default function Servicios(props) {
           </div>
         </div>
       ) : (
-        //  {/* SERVICIO 6 */}
-        <div className="servicioAmpliado">
-          <div className="ServicioAmpliadoInfo" id="ASEA">
-            <h4 className="h4ServicioAmpliado">ASEA</h4>
-            <p className="pServicioAmpliado">
-              La Agencia de Seguridad, Energía y Ambiente se encarga de
-              supervisar la seguridad industrial y operativa relacionada a la
-              protección del medio ambiente. Nosotros te acompañamos y
-              asesoramos para cumplir con cada uno de sus requerimientos.
-              <ul>
-                <li>Manifestación de Impacto Ambiental (MIA)</li>
-                <li>SASISOPA</li>
-                <li>Estudio de Riesgo Ambiental (ERA)</li>
-                <li>Licencia de Funcionamiento (LF - ESTACIÓN DE SERVICIO)</li>
-              </ul>
-            </p>
-            <HashLink to="/soluciones#ASEA">
-              <button className="buttonServicioAmpliado">Ver más</button>
-            </HashLink>
-          </div>
-          <div className="ServicioAmpliadoFoto">
-            <button
-              className="buttonServiciosResponsive"
-              onClick={() => {
-                props.setDespliga1(false);
-                props.setDespliga2(false);
-                props.setDespliga3(false);
-                props.setDespliga4(false);
-                props.setDespliga5(false);
-                props.setDespliga6(true);
-              }}
-            >
-              <img
-                src={left}
-                alt=""
-                className="iconButtonServiciosAmpliado"
-                className="left"
-              />
-            </button>
-            <button
-              className="buttonServiciosResponsive"
-              onClick={() => {
-                props.setDespliga1(false);
-                props.setDespliga2(true);
-                props.setDespliga3(false);
-                props.setDespliga4(false);
-                props.setDespliga5(false);
-                props.setDespliga6(false);
-              }}
-            >
-              <img
-                src={right}
-                alt=""
-                className="iconButtonServiciosAmpliado"
-                className="right"
-              />
-            </button>
-          </div>
-        </div>
+        Servicio1()
       )}
+      {/* SERVICIO 6 */}
     </section>
   );
 }

@@ -1,12 +1,14 @@
 import React from "react";
 import "./Contenido.css";
+import flecha from "./Images/Arrow-2.svg";
 
 export default function Contenido() {
   return (
     <section className="containerContenidos">
       <div className="containerItemContenido" id="ASEA">
         <h2 className="titlesContenido">
-          ASEA<samp className="titleContenidoColor">.</samp>
+          <img src={flecha} alt="Icono flecha" className="iconFlechaSolu" />
+          ASEA
         </h2>
         <p className="pContenidos">
           Te acompañamos y asesoramos para cumplir con cada uno de los
@@ -69,7 +71,9 @@ export default function Contenido() {
       </div>
       <div className="containerItemContenido" id="CRE">
         <h2 className="titlesContenido">
-          CRE<samp className="titleContenidoColor">.</samp>
+          {" "}
+          <img src={flecha} alt="Icono flecha" className="iconFlechaSolu" />
+          CRE
         </h2>
         <p className="pContenidos">
           La Comisión Reguladora de Energía regula el transporte,
@@ -107,7 +111,9 @@ export default function Contenido() {
       </div>
       <div className="containerItemContenido" id="SENER">
         <h2 className="titlesContenido">
-          SENER<samp className="titleContenidoColor">.</samp>
+          {" "}
+          <img src={flecha} alt="Icono flecha" className="iconFlechaSolu" />
+          SENER
         </h2>
         <p className="pContenidos">
           Órgano gubernamental que conduce la política energética dentro de
@@ -132,7 +138,9 @@ export default function Contenido() {
       </div>
       <div className="containerItemContenido" id="CONSULTORIA">
         <h2 className="titlesContenido">
-          CONSULTORÍA<samp className="titleContenidoColor">.</samp>
+          {" "}
+          <img src={flecha} alt="Icono flecha" className="iconFlechaSolu" />
+          CONSULTORÍA
         </h2>
         <p className="pContenidos">
           Contamos con un equipo experimentado y con amplia trayectoria en el
@@ -174,7 +182,9 @@ export default function Contenido() {
       </div>
       <div className="containerItemContenido" id="ADMINISTRACION">
         <h2 className="titlesContenido">
-          ADMINISTRACIÓN<samp className="titleContenidoColor">.</samp>
+          {" "}
+          <img src={flecha} alt="Icono flecha" className="iconFlechaSolu" />
+          ADMINISTRACIÓN
         </h2>
         <p className="pContenidos">
           Creamos las herramientas más innovadoras que te ayuden a administrar
@@ -203,7 +213,9 @@ export default function Contenido() {
       </div>
       <div className="containerItemContenido" id="NUEVOS-NEGOCIOS">
         <h2 className="titlesContenido">
-          NUEVOS NEGOCIOS<samp className="titleContenidoColor">.</samp>
+          {" "}
+          <img src={flecha} alt="Icono flecha" className="iconFlechaSolu" />
+          NUEVOS NEGOCIOS
         </h2>
         <p className="pContenidos">
           Te acompañamos en la creación y arranque de nuevos proyectos. Damos

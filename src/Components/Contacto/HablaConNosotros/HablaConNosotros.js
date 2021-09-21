@@ -1,9 +1,10 @@
 import React from "react";
 import emailjs from "emailjs-com";
 import "./HablaConNosotros.css";
-import pleace from "./images/place-icon.svg";
+// import pleace from "./images/place-icon.svg";
 import mail from "./images/mail-icon.svg";
 import phone from "./images/icon-phone.svg";
+import wpp from "./images/WPP@2x (1).png";
 
 export default function HablaConNosotros() {
   function sendEmail(e) {
@@ -29,7 +30,7 @@ export default function HablaConNosotros() {
   return (
     <section className="hablaConNos">
       <h2 className="titleHablaConNosotros" id="contacto">
-        HABLA CON NOSOTROS<span className="titleHablaConNosotrosColor">.</span>
+        HABLA CON NOSOTROS
       </h2>
       <div className="hileraFormVisit">
         <form className="containerFormulario" onSubmit={sendEmail}>
@@ -78,9 +79,15 @@ export default function HablaConNosotros() {
             value="Enviar"
             type="submit"
           />
+          <p className="pPrivacidad">
+            Al dar clic en enviar, acepta el{" "}
+            <a href="#" className="aPrivacidad">
+              Aviso de Privacidad de OSSIPA
+            </a>
+          </p>
         </form>
         <div className="containerVisitanos">
-          <div className="itemVisitanos">
+          {/* <div className="itemVisitanos">
             <div className="CInfoVisit">
               <h3 className="infoVisitTitle">Visítanos</h3>
               <h5 className="infoSubVisitTitle">Dirección incompleta</h5>
@@ -88,23 +95,23 @@ export default function HablaConNosotros() {
             <div className="containerIconVisit">
               <img src={pleace} alt="Icono Lugar" />
             </div>
+          </div> */}
+          <div className="itemVisitanos">
+            <div className="CInfoVisit">
+              <h3 className="infoVisitTitle">O usa tu aplicación de correo</h3>
+              <h5 className="infoSubVisitTitle">contacto@ossipa.com</h5>
+            </div>
+            <div className="containerIconVisit">
+              <img src={mail} alt="Icono Mail" className="iconContactenos" />
+            </div>
           </div>
           <div className="itemVisitanos">
             <div className="CInfoVisit">
-              <h3 className="infoVisitTitle">Mándanos un mail</h3>
-              <h5 className="infoSubVisitTitle">calidad@ossipa.com.mx</h5>
+              <h3 className="infoVisitTitle">O chatea con nosotros</h3>
+              <h5 className="infoSubVisitTitle">respuesta menor a 1 hora</h5>
             </div>
             <div className="containerIconVisit">
-              <img src={mail} alt="Icono Mail" />
-            </div>
-          </div>
-          <div className="itemVisitanos">
-            <div className="CInfoVisit">
-              <h3 className="infoVisitTitle">Márcanos</h3>
-              <h5 className="infoSubVisitTitle">00 00 00 00 00</h5>
-            </div>
-            <div className="containerIconVisit">
-              <img src={phone} alt="Icono Phone" />
+              <img src={wpp} alt="Icono wpp" className="iconContactenos" />
             </div>
           </div>
         </div>

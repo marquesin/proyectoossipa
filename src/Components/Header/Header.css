@@ -53,14 +53,17 @@
 }
 
 .iconosRedes {
+    background-color: #FFFFFF;
     width: 48px;
     height: 48px;
+    border-radius: 100%;
+    border: #54A9BE solid 1px;
 }
 .iconosRedes:hover{
-    color: #3B7381;
     width: 52px;
     height: 52px;
     cursor: pointer;
+    border: #3B7381 1px solid;
 }
 .containerHeaderResponsive{
     display: none;

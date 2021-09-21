@@ -2,28 +2,21 @@ import React from "react";
 import "./NuestraHistoria.css";
 import comillaOSup from "../PorqueElegirnos/images/ComillasOscurasSup.svg";
 import comillaOInf from "../PorqueElegirnos/images/ComillasOscurasInf.svg";
+import flecha from "../img/Arrow-3.svg";
 
 export default function NuestraHistoria() {
   return (
     <section className="containerNuestraHistoria">
       <div className="nuestraHistoriaIzquierda">
         <h1 className="titleNuestraHistoria">
-          NUESTRA HISTORIA<span className="titleNuestraHistoriaColor">.</span>
+          <img src={flecha} alt="Icono flecha" /> NUESTRA HISTORIA
         </h1>
-        {/* <p className="p1NuestraHistoria">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna
-        </p> */}
         <p className="p2NuestraHistoria">
           Grupo Ossipa nace como respuesta a las necesidades de nuestros
           clientes pertenecientes a la cadena de suministro y logística final de
-          combustibles y otros hidrocarburos.
-          <br />
-          <br />
-          <br />
-          Desde su concepción, construcción, procesos regulatorios, hasta la
-          administración y seguimiento operativo.
-          <br />
+          combustibles y otros hidrocarburos. Desde su concepción, construcción,
+          procesos regulatorios, hasta la administración y seguimiento
+          operativo.
           <br />
           <br />
           Buscamos ser el brazo derecho de nuestros clientes en la ejecución de
@@ -75,8 +68,7 @@ export default function NuestraHistoria() {
         <div className="containerComilla">
           <img src={comillaOSup} alt="Comillas cita" />
         </div>
-        <br />
-        <p className="pComilla">
+        <p className="pComilla sup">
           Nuestro compromiso es siempre contigo y tu negocio.
           <br />
           <br />

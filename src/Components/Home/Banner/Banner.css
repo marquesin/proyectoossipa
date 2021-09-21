@@ -32,11 +32,10 @@
     display: flex;
     justify-content: center;
     opacity: 0.71;
-    /* mix-blend-mode: multiply; */
-    background-color: #616161;
-    border-color: #707070;
+    border: 1px solid var(--unnamed-color-707070);
+    background: #616161 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
     width: 55%;
-
 }
 
 .parrafoTitle {

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contactenos.css";
+import flecha from "../images/Arrow-2.svg";
 
 export default function Contactenos() {
   return (
@@ -31,7 +32,7 @@ export default function Contactenos() {
       </div>
       <div className="conocenos">
         <h2 className="h2Conocenos">
-          CONÓCENOS<span className="h2ConocenosColor">.</span>
+          <img src={flecha} /> CONÓCENOS
         </h2>
         <p className="pConocenos">
           Somos un grupo de especialistas enfocados en el desarrollo eficaz de
