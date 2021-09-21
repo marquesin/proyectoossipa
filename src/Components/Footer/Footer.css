@@ -134,7 +134,7 @@ li {
 .social-media-footer {
   display: flex;
   justify-content: flex-end;
-  margin: 20px 0;
+  margin: 25px ;
 }
 .social-media-footerResponsive{
   display: none;

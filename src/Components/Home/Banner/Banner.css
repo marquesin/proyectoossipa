@@ -72,27 +72,29 @@
 
 .buttonBannerHomeSo {
     background-color: #54A9BE;
-    color: #707070;
+    color: #FFFFFF;
     opacity: 1;
     box-shadow: 0px 3px 6px #00000096;
 }
 
 .buttonBannerHomeSo:hover {
-    background-color: #3B7381;
-    color: #FFFFFF;
+    background: #2D5964 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000096;
+    border: 1px solid #177991;
+    border-radius: 8px;
     cursor: pointer;
 }
 
 .buttonBannerHomeNo {
-    background-color: #626D71;
+    background: #494F50 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #000000A3;
-    /* border: 2px solid #FFFFFF; */
-    opacity: 1;
+    border-radius: 8px;
     color: #FFFFFF;
 }
 
 .buttonBannerHomeNo:hover {
-    background-color: #313639;
+    background: #000000 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #000000A3;
     cursor: pointer;
 
 }

@@ -28,6 +28,10 @@ export default function Contactenos() {
             className="texteaMayorInfo"
           ></textarea>
           <button className="buttonEnviarMayorInfo">ENVIAR</button>
+          <p id="pAvisoDePrivacidad">
+            Al dar clic en enviar, acepta el <br />
+            <a href="#"> Aviso de Privacidad de OSSIPA</a>
+          </p>
         </div>
       </div>
       <div className="conocenos">

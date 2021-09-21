@@ -21,32 +21,36 @@
 }
 
 .p1NuestraHistoria {
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 500;
     color: #767676;
     text-align: left;
     letter-spacing: 0;
     opacity: 1;
+    width: 522px;
+
 }
 
 .p2NuestraHistoria {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 500;
     color: #767676;
     opacity: 1;
     letter-spacing: 0;
     text-align: left;
+    width: 522px;
 }
 
 .nuestraHistoriaDerechaComillas {
-    width: 40%;
+    width: 35%;
     background-color: #3B7381;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 6%;
+    padding: 3%;
     margin-top: 6%;
-    /* height: 300px; */
+    height: auto;
+    justify-content: center;
 }
 .sup{
     font-weight: 700 !important;
@@ -113,8 +117,8 @@
 .ContainerComillaInf{
     display: flex;
     justify-content: flex-end;
-    width: 90%;
-    margin-top: -5%;
+    width: 95%;
+    margin-top: -7%;
 }
 
 @media screen and (max-width: 1200px) {

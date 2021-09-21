@@ -87,8 +87,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 2%;
-    margin-left: 15%;
+    /* margin: 2%; */
+    margin-left: 4%;
 }
 .itemVisitanos{
     display: flex;
@@ -99,6 +99,8 @@
 .iconContactenos{
     width: 40px;
     height: 40px;
+    padding-left: 50%;
+    border-left: 3px solid #707070;
 }
 
 .CInfoVisit{
@@ -112,7 +114,7 @@
     letter-spacing: 0px;
     opacity: 1;
     font-size: 18px;
-    border-right: solid 3px #707070;
+    /* border-right: solid 3px #707070; */
     border-radius: 5%;
     width: 70%;
 }
@@ -126,6 +128,7 @@
 
 .infoSubVisitTitle{
     font-weight: 500;
+    margin-top: 0;
 }
 .containerIconVisit{
     display: flex;
