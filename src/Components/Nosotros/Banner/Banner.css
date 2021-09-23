@@ -22,12 +22,28 @@
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
     .bannerNos {
-        height: 100vw;
+        background-image: url("./images/Servicios-1280x400.png");
+        background-size: cover;
+        height: 400px;
     }
 
     .titeConocenosN {
         font-size: 38px;
+    }
+}
+@media screen and (max-width: 769px) {
+    .bannerNos {
+        background-image: url("./images/Servicios-769x400.png");
+        background-size: cover;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .bannerNos {
+        background-image: url("./images/Servicios-480x600.png");
+        background-size: cover;
+        height: 500px;
     }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Banner.css";
+import { HashLink } from "react-router-hash-link";
 
 export default function Banner() {
   return (
@@ -17,8 +18,12 @@ export default function Banner() {
           </p>
         </div>
         <div className="containerbuttonBannerHome">
-          <button className="buttonBannerHomeSo">SOLUCIONES</button>
-          <button className="buttonBannerHomeNo">NOSOTROS</button>
+          <HashLink to="/soluciones#SOLUCIONES">
+            <button className="buttonBannerHomeSo">SOLUCIONES</button>
+          </HashLink>
+          <HashLink to="/nosotros#NOS">
+            <button className="buttonBannerHomeNo">NOSOTROS</button>
+          </HashLink>
         </div>{" "}
       </div>
     </div>

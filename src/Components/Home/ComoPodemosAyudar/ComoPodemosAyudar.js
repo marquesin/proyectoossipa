@@ -1,10 +1,13 @@
 import React from "react";
 import "./ComoPodemosAyudar.css";
-import iconN from "./images/iconServiciosNatural.svg";
-import iconC from "./images/iconServiciosClikeado.svg";
 import { useState } from "react";
 import Servicios from "./Servicios/Servicios";
-import servicioIcon from "./images/iconServicio.svg";
+import asea from "./images/IconServicios-ASEA.svg";
+import cre from "./images/IconServicios-CRE.svg";
+import sener from "./images/IconServicios-SENER.svg";
+import consultoria from "./images/IconServicios-Consultoria.svg";
+import administracion from "./images/IconServicios-Admin.svg";
+import nuevosNegocios from "./images/IconServicios-NuevosNegocios.svg";
 
 export default function ComoPodemosAyudar() {
   // const [hover, setHover] = useState(false);
@@ -55,8 +58,8 @@ export default function ComoPodemosAyudar() {
               );
             }}
           >
+            <img src={asea} alt="Icono Asea" />
             {/* <img src={servicioIcon} alt="Iconos Servicios" id="iconoService" /> */}
-
             {/* <IconosCambiantesEnServicios hover={hover} click={despliega1} /> */}
           </button>
           <p className="pServiciosCPA">ASEA</p>
@@ -86,6 +89,7 @@ export default function ComoPodemosAyudar() {
               );
             }}
           >
+            <img src={cre} alt="Icono Cre" />
             {/* <img src={servicioIcon} alt="Iconos Servicios" id="iconoService" /> */}
 
             {/* <IconosCambiantesEnServicios hover={hover2} click={despliega2} /> */}
@@ -118,6 +122,7 @@ export default function ComoPodemosAyudar() {
               );
             }}
           >
+            <img src={sener} alt="Icono Sener" />
             {/* <img src={servicioIcon} alt="Iconos Servicios" id="iconoService" /> */}
 
             {/* <IconosCambiantesEnServicios hover={hover3} click={despliega3} /> */}
@@ -153,6 +158,7 @@ export default function ComoPodemosAyudar() {
               );
             }}
           >
+            <img src={consultoria} alt="Icono Consultoria" />
             {/* <img src={servicioIcon} alt="Iconos Servicios" id="iconoService" /> */}
 
             {/* <IconosCambiantesEnServicios hover={hover4} click={despliega4} /> */}
@@ -183,6 +189,7 @@ export default function ComoPodemosAyudar() {
               );
             }}
           >
+            <img src={administracion} alt="Icono Administracios" />
             {/* <img src={servicioIcon} alt="Iconos Servicios" id="iconoService" /> */}
 
             {/* <IconosCambiantesEnServicios hover={hover5} click={despliega5} /> */}
@@ -213,6 +220,7 @@ export default function ComoPodemosAyudar() {
               );
             }}
           >
+            <img src={nuevosNegocios} alt="Icono Nuevos negocios" />
             {/* <img src={servicioIcon} alt="Iconos Servicios" id="iconoService" /> */}
 
             {/* <IconosCambiantesEnServicios hover={hover6} click={despliega6} /> */}

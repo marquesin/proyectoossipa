@@ -34,3 +34,21 @@
         font-size: 35px;
     }
 }
+@media screen and (max-width: 1280px) {
+    .containerBannerContacte{
+        background-image: url("./images/Conocenos-1280x400.png");
+        height: 400px;
+    }
+}
+@media screen and (max-width: 769px) {
+    .containerBannerContacte{
+        background-image: url("./images/Conocenos-769x400.png");
+        height: 400px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .containerBannerContacte{
+        background-image: url("./images/Conocenos-480x600.png");
+        height: 450px;
+    }
+}

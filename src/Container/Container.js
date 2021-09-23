@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Nosotros from "../Components/Nosotros/Nosotros.js";
 import Contacto from "../Components/Contacto/Contacto.js";
 import Soluciones from "../Components/Soluciones/Soluciones";
+import AvisoDePrivacidad from "../Components/AvisoDePrivacidad/AvisoDePrivacidad";
 
 export default function Container() {
   return (
@@ -23,6 +24,11 @@ export default function Container() {
           <Route path="/soluciones">
             <Soluciones />
           </Route>
+          {/* prueba Terminos y condiciones */}
+          <Route path="/AvisoDePrivacidad" exact>
+            <AvisoDePrivacidad />
+          </Route>
+          {/* prueba terminos */}
         </Switch>
       </Router>
     </div>

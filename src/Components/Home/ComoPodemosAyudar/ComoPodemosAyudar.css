@@ -41,26 +41,29 @@ font-weight: 700;
     width: 120px;
     height: auto;
     
-    
 }
 .buttonServiciosCPA{
     background-color: #D8D8D8 ;
-    width: 86px;
-    height: 86px;
+    width: 108px;
+    height: 108px;
     border-radius: 100%;
     border:none;
     opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .buttonServiciosCPA:hover{
     background-color: #3B7381;
-    width: 95px;
-    height: 95px;
+    width: 108px;
+    height: 108px;
+    cursor: pointer;
 }
 .buttonServiciosCPA:active, .buttonServiciosCPAActivo{
     background-color:  #54A9BE;
     /* background-color: #D8D8D8; */
-    width: 86px;
-    height: 86px;
+    width: 108px;
+    height: 108px;
     border-radius: 100%;
     border:none;
     opacity: 1;
@@ -71,9 +74,9 @@ font-weight: 700;
     font-weight: 700;
     opacity: 1;
     font-size: 19px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 /* #buttonSectPueba{
     background-color: #53A8BD;

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52.565" height="64.788" viewBox="0 0 52.565 64.788">
+  <g id="Group_300" data-name="Group 300" transform="translate(8849.438 10684.278)">
+    <g id="Component_26_1" data-name="Component 26 1" transform="translate(-11050.15 -12007.5)">
+      <g id="Group_298" data-name="Group 298">
+        <g id="Mask_Group_23" data-name="Mask Group 23">
+          <path id="Union_7" data-name="Union 7" d="M2203.828,1376.813l9.661-13.292a19.765,19.765,0,0,1-3.143-19.758,7.578,7.578,0,0,1,1.16-2.37l.171-.235q.361-.588.774-1.154t.829-1.053l1.116-1.535a7.592,7.592,0,0,1,10.6-1.677l20.719,15.063a7.592,7.592,0,0,1,1.677,10.6l-2.888,3.974a7.567,7.567,0,0,1-2.519,2.21,19.819,19.819,0,0,1-19.124,2.711l-9.678,13.315a5.785,5.785,0,0,1-9.359-6.8Z" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+        </g>
+      </g>
+    </g>
+    <line id="Line_100" data-name="Line 100" x1="8.5" y2="12.5" transform="translate(-8820.15 -10681.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    <line id="Line_101" data-name="Line 101" x1="8.5" y2="12.5" transform="translate(-8808.15 -10673.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+  </g>
+</svg>

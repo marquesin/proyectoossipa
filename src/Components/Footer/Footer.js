@@ -160,9 +160,11 @@ export default function Footer() {
             {/* <img src={twitter} alt="twitter-icon" /> */}
             <img src={linkedin} alt="linkedin-icon" />
           </div>
-          <a href="#" className="avisoDePrivacidad">
-            Aviso de Privacidad
-          </a>
+          <HashLink to="/AvisoDePrivacidad#AvisoDePrivacidad">
+            <a href="#" className="avisoDePrivacidad">
+              Aviso de Privacidad
+            </a>
+          </HashLink>
         </div>
 
         {/*-------------Termina Seccion de OSSIPA --------------*/}

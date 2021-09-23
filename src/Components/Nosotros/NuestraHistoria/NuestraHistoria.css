@@ -148,7 +148,7 @@
     }
 
     .nuestraHistoriaDerechaComillas {
-        width: 100%;
+        width: 94%;
         justify-content: center;
         align-items: center;
     }
@@ -160,6 +160,7 @@
     .p1NuestraHistoria,
     .p2NuestraHistoria {
         font-size: 14px;
+        width: 100%;
     }
 
     .hilera1,

@@ -1,12 +1,15 @@
 import React from "react";
 import emailjs from "emailjs-com";
 import "./HablaConNosotros.css";
-// import pleace from "./images/place-icon.svg";
 import mail from "./images/mail-icon.svg";
-import phone from "./images/icon-phone.svg";
+// import phone from "./images/icon-phone.svg";
 import wpp from "./images/WPP@2x (1).png";
+import { useState } from "react";
+import Modal from "../../Modal/Modal";
+import { HashLink } from "react-router-hash-link";
 
 export default function HablaConNosotros() {
+  const [modal, setModal] = useState(false);
   function sendEmail(e) {
     e.preventDefault();
 
@@ -20,6 +23,7 @@ export default function HablaConNosotros() {
       .then(
         (result) => {
           console.log(result.text);
+          setModal(true);
         },
         (error) => {
           console.log(error.text);
@@ -29,6 +33,7 @@ export default function HablaConNosotros() {
   }
   return (
     <section className="hablaConNos">
+      {modal ? <Modal setModal={setModal} /> : ""}
       <h2 className="titleHablaConNosotros" id="contacto">
         HABLA CON NOSOTROS
       </h2>
@@ -81,9 +86,11 @@ export default function HablaConNosotros() {
           />
           <p className="pPrivacidad">
             Al dar clic en enviar, acepta el{" "}
-            <a href="#" className="aPrivacidad">
-              Aviso de Privacidad de OSSIPA
-            </a>
+            <HashLink to="/AvisoDePrivacidad#AvisoDePrivacidad">
+              <a href="#" className="aPrivacidad">
+                Aviso de Privacidad de OSSIPA
+              </a>
+            </HashLink>
           </p>
         </form>
         <div className="containerVisitanos">
