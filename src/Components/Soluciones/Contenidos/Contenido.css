@@ -71,9 +71,20 @@
     .pContenidos{
         font-size: 17px;
     }
-   
+    .containerUlContenidos{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
     .ulContenidos{
-        font-size: 15px;
+        font-size: 20px;
+        width: 90%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .ulContenidos li{
+        margin-bottom: 8%;
     }
     .ulContenidos li samp{
         font-size: 20px;

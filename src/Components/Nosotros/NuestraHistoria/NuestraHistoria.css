@@ -151,6 +151,11 @@
         width: 94%;
         justify-content: center;
         align-items: center;
+        padding-bottom: 12%;
+        padding-top: 12%;
+    }
+    .sup{
+        font-size: 18px !important;
     }
 
     .titleNuestraHistoria {
@@ -159,10 +164,11 @@
 
     .p1NuestraHistoria,
     .p2NuestraHistoria {
-        font-size: 14px;
+        font-size: 18px;
         width: 100%;
+        text-align: left;
+        line-height: 30px;
     }
-
     .hilera1,
     .hilera2 {
         width: 100%;
@@ -176,4 +182,14 @@
         margin-bottom: 5vw;
     }
 
+}
+@media screen and (min-width: 767px) and (max-width: 1024px){
+    .sup{
+        font-size: 22px !important;
+    }
+    .ContainerComillaInf{
+        margin-top: -6%;
+        width: 60%;
+    }
+   
 }

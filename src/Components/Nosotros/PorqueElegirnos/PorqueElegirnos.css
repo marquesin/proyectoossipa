@@ -108,8 +108,11 @@
 
     .pComilla {
         width: 70%;
-        text-align: center;
+        text-align: left;
 
     }
+    /* .comillaInferior{
+        margin-left: 80%;
+    } */
 
 }

@@ -91,18 +91,19 @@ h1.titleCertificaciones{
     font-size: 25px;
 }
 .pCertificaciones{
-    width: 70%;
+    width: 100%;
     align-self: center;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 18px;
+    
 }
 .containerValoresCertificaciones{
-    flex-direction: row;
-    margin: 0;
+    /* flex-direction: column; */
+    width: 100%;
+    margin: auto;
     flex-wrap: wrap;
     margin-bottom: 5vw;
-}
-.valoresDeCertificaciones{
-    margin-bottom: 5%;
-    margin-right: 5%;
 }
 
 }

@@ -1,7 +1,7 @@
 .containerModal{
     position: fixed;
     width: 40%;
-    height: 55%;
+    height: 60%;
     top: 30%;
     left: 30%;
     background: #313639 0% 0% no-repeat padding-box;
@@ -63,4 +63,43 @@ border-radius: 69px;
 }
 .DeAcuerdoButton:hover{
     cursor: pointer;
+}
+@media screen and (max-width: 1024px){
+    .containerModal{
+    width: 60%;
+    height: 60%;
+    left: 20%;
+}
+
+}
+@media screen and (max-width: 768px){
+    .containerModal{
+        width: 80%;
+        height: 50%;
+        left: 10%;
+    }
+    .containerButtonModal{
+        padding-right: 10%;
+    }
+    .buttonModal{
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .titleModal{
+        font-size: 15px;
+        margin: 0 2% 0 2%;
+    }
+    .subTitleModal{
+        font-size: 15px;
+    }
+    .pModal{
+        font-size: 12px;
+    }
+    .DeAcuerdoButton{
+        width: 70%;
+        height: 50px;
+        font-size: 17px;
+        margin-top: 5%;
+    }
 }

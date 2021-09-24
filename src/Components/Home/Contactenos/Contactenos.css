@@ -156,12 +156,12 @@ font-size: 24px;
     margin-top: 0.5em;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1024px) {
     .containerContactenos{
         padding: 0;
         flex-direction: column;
         justify-content: center;
-    align-items: center;
+        align-items: center;
     }
     .ContainerMayorInformacion{
         width: 100%;
@@ -217,5 +217,43 @@ font-size: 24px;
     .valorConocenos{
         margin-bottom: 5%;
         font-size: 16px;
+    }
+}
+@media screen and (min-width:426px) and (max-width:1024px) {
+    .containerContactenos{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .h2Conocenos{
+        text-align: center;
+    }
+    .pConocenos{
+        font-size: 16px;
+    }
+    .conocenos{
+        margin-top: 2%;
+        margin-right: 2%;
+    }
+    .continervaloresConocenos{
+        flex-direction: row;
+        width: 100%;
+        margin-top: 5%;
+    }
+    .valorConocenos{
+      width: 150px;
+      height: 130px;
+      margin-bottom: 7%;
+    }
+    .pValor{
+        font-size: 10px;
+    }
+
+}
+@media screen and (max-width:768px) {
+    .containerContactenos{
+        margin-top: -2%;
+    }
+    .h2Conocenos{
+        text-align: center;
     }
 }

@@ -72,9 +72,17 @@
     width: 30px;
 }
 
+@media screen and (max-width: 1200px){
+    .buttonHeader{
+        font-size: 15px;
+    }
+    .iconosRedes{
+        width: 40px;
+        height: 40px;
+    }
+}
 
-
-@media screen and (max-width: 1200px)
+@media screen and (max-width: 1023px)
 {
     .Header{
         height: 25vw;
@@ -147,17 +155,32 @@
         width: 20px;
         height: 20px;
     }
-    @media screen and (min-width:768px) and  (max-width: 1200px){
+    
+    
+}
+@media screen and (min-width:768px) and  (max-width: 1024px){
         .containerHeaderResponsive{
-            height: 15vw;
+            height: 12vw;
             width: 100%;
         }
         .Header{
-            height: 15vw;
+            height: 10vw;
         }
         .containerMenuDesplegable{
-            padding-top: 15vw;
+            padding-top: 12vw;
+        }
+        .containerButtonHeaderDesplegable{
+            height: 20vw;
+            width: 70%;
+            margin: auto;
+        }
+        .containerIconHeaderDesplegable{
+            width: 70%;
+            margin: auto;
         }
     }
-    
-}
+@media screen and (max-width:768px){
+        .logoHeader{
+            width: 170px;
+        }
+    }
