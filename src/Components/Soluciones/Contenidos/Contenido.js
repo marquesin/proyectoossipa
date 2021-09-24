@@ -66,7 +66,7 @@ export default function Contenido() {
             </li>
           </ul>
         </div>
-        <div className="simulacionImagen">IMAGEN</div>
+        <div className="simulacionImagen" id="solucionAsea"></div>
         {/* <img src="" alt="" /> */}
       </div>
       <div className="containerItemContenido" id="CRE">
@@ -106,7 +106,7 @@ export default function Contenido() {
             </li>
           </ul>
         </div>
-        <div className="simulacionImagen">IMAGEN</div>
+        <div className="simulacionImagen" id="solucionCre"></div>
         {/* <img src="" alt="" /> */}
       </div>
       <div className="containerItemContenido" id="SENER">
@@ -133,7 +133,7 @@ export default function Contenido() {
             </li>
           </ul>
         </div>
-        <div className="simulacionImagen">IMAGEN</div>
+        <div className="simulacionImagen" id="solucionSener"></div>
         {/* <img src="" alt="" /> */}
       </div>
       <div className="containerItemContenido" id="CONSULTORIA">
@@ -177,7 +177,7 @@ export default function Contenido() {
             </li>
           </ul>
         </div>
-        <div className="simulacionImagen">IMAGEN</div>
+        <div className="simulacionImagen" id="solucionConsultoria"></div>
         {/* <img src="" alt="" /> */}
       </div>
       <div className="containerItemContenido" id="ADMINISTRACION">
@@ -208,7 +208,7 @@ export default function Contenido() {
             </li>
           </ul>
         </div>
-        <div className="simulacionImagen">IMAGEN</div>
+        <div className="simulacionImagen" id="solucionAdministracion"></div>
         {/* <img src="" alt="" /> */}
       </div>
       <div className="containerItemContenido" id="NUEVOS-NEGOCIOS">
@@ -246,7 +246,7 @@ export default function Contenido() {
             </li>
           </ul>
         </div>
-        <div className="simulacionImagen">IMAGEN</div>
+        <div className="simulacionImagen" id="solucionNuevosN"></div>
         {/* <img src="" alt="" /> */}
       </div>
     </section>

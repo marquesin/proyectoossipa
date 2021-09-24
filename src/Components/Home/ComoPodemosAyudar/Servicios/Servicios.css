@@ -47,6 +47,27 @@
     width: 50%;
     background-color: #D8D8D8;
 }
+#servicioCre{
+    background-image: url("./img/Artboard_–_2.png");
+    background-size: cover;
+}
+#servicioSener{
+    background-image: url("./img/Artboard_–_3.png");
+    background-size: cover;
+}
+#servicioConsultoria{
+    background-image: url("./img/Artboard_–_4.png");
+    background-size: cover;
+}
+#servicioAdministracion{
+    background-image: url("./img/Artboard_–_5.png");
+    background-size: cover;
+}
+#sevicioNuevosN{
+    background-image: url("./img/Artboard_–_6.png");
+    background-size: cover;
+
+}
 .buttonServiciosResponsive{
     display: none;
 }

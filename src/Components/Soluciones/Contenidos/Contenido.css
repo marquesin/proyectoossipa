@@ -57,8 +57,32 @@
 
 .simulacionImagen{
     width: 100%;
-    height: 470px;
-    background-color: #D0D0D0;
+    height: 650px;
+}
+#solucionAsea{
+    background-image: url("./Images/ASEA.png");
+    background-size: cover;
+}
+#solucionCre{
+    background-image: url("./Images/Artboard_–_12.png");
+    background-size: cover;
+}
+#solucionSener{
+    background-size: cover;
+    background-image: url("./Images/Artboard_–_7.png");
+}
+#solucionConsultoria{
+    background-size: cover;
+    background-image: url("./Images/Artboard_–_11.png");
+}
+#solucionAdministracion{
+    background-size: cover;
+    background-image: url("./Images/Artboard_–_9.png");
+}
+#solucionNuevosN{
+    background-image: url("./Images/Artboard_–_10.png");
+    background-size: cover;
+
 }
 
 @media screen and (max-width: 1200px) {

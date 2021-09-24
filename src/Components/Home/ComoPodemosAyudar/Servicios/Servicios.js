@@ -25,7 +25,7 @@ export default function Servicios(props) {
           <button className="buttonServicioAmpliado">Ver más</button>
         </HashLink>
       </div>
-      <div className="ServicioAmpliadoFoto">
+      <div className="ServicioAmpliadoFoto" id="servicioAsea">
         <button
           className="buttonServiciosResponsive"
           onClick={() => {
@@ -94,7 +94,7 @@ export default function Servicios(props) {
               <button className="buttonServicioAmpliado">Ver más</button>
             </HashLink>
           </div>
-          <div className="ServicioAmpliadoFoto">
+          <div className="ServicioAmpliadoFoto" id="servicioCre">
             {" "}
             <button
               className="buttonServiciosResponsive"
@@ -155,7 +155,7 @@ export default function Servicios(props) {
               <button className="buttonServicioAmpliado">Ver más</button>
             </HashLink>
           </div>
-          <div className="ServicioAmpliadoFoto">
+          <div className="ServicioAmpliadoFoto" id="servicioSener">
             {" "}
             <button
               className="buttonServiciosResponsive"
@@ -224,7 +224,7 @@ export default function Servicios(props) {
               <button className="buttonServicioAmpliado">Ver más</button>
             </HashLink>
           </div>
-          <div className="ServicioAmpliadoFoto">
+          <div className="ServicioAmpliadoFoto" id="servicioConsultoria">
             {" "}
             <button
               className="buttonServiciosResponsive"
@@ -292,7 +292,7 @@ export default function Servicios(props) {
               <button className="buttonServicioAmpliado">Ver más</button>
             </HashLink>
           </div>
-          <div className="ServicioAmpliadoFoto">
+          <div className="ServicioAmpliadoFoto" id="servicioAdministracion">
             {" "}
             <button
               className="buttonServiciosResponsive"
@@ -355,7 +355,7 @@ export default function Servicios(props) {
               <button className="buttonServicioAmpliado">Ver más</button>
             </HashLink>
           </div>
-          <div className="ServicioAmpliadoFoto">
+          <div className="ServicioAmpliadoFoto" id="sevicioNuevosN">
             {" "}
             <button
               className="buttonServiciosResponsive"
