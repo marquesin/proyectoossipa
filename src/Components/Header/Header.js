@@ -13,7 +13,9 @@ export default function Header() {
       <div className="containerHeader">
         <div className="containerLogo">
           {" "}
-          <img src={logo} alt="Logo de la empresa" className="logoHeader" />
+          <HashLink to="/#bannerHome">
+            <img src={logo} alt="Logo de la empresa" className="logoHeader" />
+          </HashLink>
         </div>
         <div className="containerButtonHeader">
           <HashLink to="/#bannerHome">
