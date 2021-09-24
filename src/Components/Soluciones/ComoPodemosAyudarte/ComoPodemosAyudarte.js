@@ -6,7 +6,7 @@ export default function ComoPodemosAyudarte() {
   return (
     <div className="containerComoPodemosAyudarte">
       <h2 className="titleComoPodemosAyudarte">¿ CÓMO PODEMOS AYUDARTE ?</h2>
-      <HashLink to="/contacto#contacto">
+      <HashLink to="/contacto#bannerContacto">
         <button className="buttonContactameComoPodemosAyudarte">
           CONTÁCTANOS
         </button>
