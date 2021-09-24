@@ -15,17 +15,25 @@ export default function Footer() {
       <section className="footer-contact">
         <div className="footer-contact-single">
           <div className="text-block-contact">
-            <h3>Márcanos</h3>
-            <h5>+52 1 55 3673 6747 </h5>
+            <a href="tel:+5215536736747">
+              <h3>Márcanos</h3>
+              <h5>+52 1 55 3673 6747 </h5>
+            </a>
           </div>
-          <img src={phone} alt="" />
+          <a href="tel:+5215536736747">
+            <img src={phone} alt="" />
+          </a>
         </div>
         <div className="footer-contact-single">
           <div className="text-block-contact">
-            <h3>Mándanos un mail</h3>
-            <h5>contacto@ossipa.com </h5>
+            <a href="mailto:contacto@ossipa.com">
+              <h3>Mándanos un mail</h3>
+              <h5>contacto@ossipa.com </h5>
+            </a>
           </div>
-          <img src={mail} alt="" />
+          <a href="mailto:contacto@ossipa.com">
+            <img src={mail} alt="" />
+          </a>
         </div>
         <div className="footer-contact-single">
           <div className="text-block-contact">
@@ -41,18 +49,26 @@ export default function Footer() {
       {/* Seccion modificada para responsive */}
       <section className="footer-contact-responsive">
         <div className="containerIconFooterContact">
-          <img src={phone} alt="" />
-          <img src={mail} alt="" />
+          <a href="tel:+5215536736747">
+            <img src={phone} alt="" />
+          </a>
+          <a href="mailto:contacto@ossipa.com">
+            <img src={mail} alt="" />
+          </a>
           <img src={place} alt="" />
         </div>
         <div className="containerInfoContact">
           <div>
-            <h3>Márcanos</h3>
-            <h5>+52 1 55 3673 6747</h5>
+            <a href="tel:+5215536736747">
+              <h3>Márcanos</h3>
+              <h5>+52 1 55 3673 6747</h5>
+            </a>
           </div>
           <div>
-            <h3>Mándanos un mail</h3>
-            <h5>contacto@ossipa.com</h5>
+            <a href="mailto:contacto@ossipa.com">
+              <h3>Mándanos un mail</h3>
+              <h5>contacto@ossipa.com</h5>
+            </a>
           </div>
           <div>
             <h3>Visìtanos</h3>
@@ -175,9 +191,11 @@ export default function Footer() {
           {/* <img src={twitter} alt="twitter-icon" /> */}
           <img src={linkedin} alt="linkedin-icon" />
         </div>
-        <a href="#" className="avisoDePrivacidadResponsive">
-          Aviso de Privacidad
-        </a>
+        <HashLink to="/AvisoDePrivacidad#AvisoDePrivacidad">
+          <a href="#" className="avisoDePrivacidadResponsive">
+            Aviso de Privacidad
+          </a>
+        </HashLink>
       </div>
       <legend>2021. OSSIPA. Todos los derechos reservados.</legend>
     </footer>
