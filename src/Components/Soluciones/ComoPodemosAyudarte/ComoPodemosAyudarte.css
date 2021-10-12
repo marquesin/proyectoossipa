@@ -45,3 +45,17 @@
         font-size: 15px;
     }
 }
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+    .containerComoPodemosAyudarte{
+        height: 400px;
+    }
+    .titleComoPodemosAyudarte{
+        font-size: 3em;
+    }
+    .buttonContactameComoPodemosAyudarte {
+        width: 190px;
+        height: 60px;
+        font-size: 19px;
+    }
+    
+}

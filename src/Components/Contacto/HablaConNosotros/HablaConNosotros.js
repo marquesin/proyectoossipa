@@ -94,32 +94,31 @@ export default function HablaConNosotros() {
           </p>
         </form>
         <div className="containerVisitanos">
-          {/* <div className="itemVisitanos">
-            <div className="CInfoVisit">
-              <h3 className="infoVisitTitle">Visítanos</h3>
-              <h5 className="infoSubVisitTitle">Dirección incompleta</h5>
-            </div>
-            <div className="containerIconVisit">
-              <img src={pleace} alt="Icono Lugar" />
-            </div>
-          </div> */}
           <div className="itemVisitanos">
             <div className="CInfoVisit">
               <h3 className="infoVisitTitle">O usa tu aplicación de correo</h3>
-              <h5 className="infoSubVisitTitle">contacto@ossipa.com</h5>
+              <a href="mailto:contacto@ossipa.com">
+                <h5 className="infoSubVisitTitle">contacto@ossipa.com</h5>
+              </a>
             </div>
-            <div className="containerIconVisit">
-              <img src={mail} alt="Icono Mail" className="iconContactenos" />
-            </div>
+            <a href="mailto:contacto@ossipa.com">
+              <div className="containerIconVisit">
+                <img src={mail} alt="Icono Mail" className="iconContactenos" />
+              </div>
+            </a>
           </div>
           <div className="itemVisitanos">
             <div className="CInfoVisit">
               <h3 className="infoVisitTitle">O chatea con nosotros</h3>
-              <h5 className="infoSubVisitTitle">respuesta menor a 1 hora</h5>
+              <a href="http://wa.me/+5215536736747">
+                <h5 className="infoSubVisitTitle">respuesta menor a 1 hora</h5>
+              </a>
             </div>
-            <div className="containerIconVisit">
-              <img src={wpp} alt="Icono wpp" className="iconContactenos" />
-            </div>
+            <a href="http://wa.me/+5215536736747">
+              <div className="containerIconVisit">
+                <img src={wpp} alt="Icono wpp" className="iconContactenos" />
+              </div>
+            </a>
           </div>
         </div>
       </div>
