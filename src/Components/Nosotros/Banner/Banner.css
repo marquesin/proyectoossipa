@@ -10,7 +10,7 @@
 
 .titeConocenosN {
     font-weight: 700;
-    font-size: 67px;
+    font-size: 62px;
     text-align: left;
     letter-spacing: 0px;
     text-shadow: 0px 3px 50px #4B4B4BE8;
@@ -30,7 +30,7 @@
     }
 
     .titeConocenosN {
-        font-size: 38px;
+        font-size: 3em;
     }
 }
 @media screen and (max-width: 769px) {
@@ -45,5 +45,8 @@
         background-image: url("./images/Servicios-480x600.png");
         background-size: cover;
         height: 500px;
+    }
+    .titeConocenosN{
+        font-size: 2em;
     }
 }

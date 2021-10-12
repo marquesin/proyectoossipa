@@ -193,3 +193,17 @@
     }
    
 }
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+    .titleNuestraHistoria{
+        font-size: 32px;
+    }
+    .p2NuestraHistoria{
+        font-size: 16px;
+        line-height: 32px;
+        width: auto;
+    }
+    .sup{
+        font-size: 24px !important;
+        line-height: 32px !important;
+    }
+}

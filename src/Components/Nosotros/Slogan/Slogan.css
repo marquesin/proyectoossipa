@@ -42,7 +42,7 @@
         height: 500px;
     }
 
-    h1.titleSlogan {
+    .titleSlogan {
         font-size: 34px;
     }
 
@@ -51,4 +51,9 @@
         margin-bottom: 2%;
     }
 
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+    .titleSlogan{
+        font-size: 3em;
+    }
 }

@@ -183,4 +183,18 @@
         .logoHeader{
             width: 170px;
         }
+        .Header{
+            height: 15vw;
+        }
+        .containerHeaderResponsive{
+            height: 15vw;
+        }
+    }
+    @media screen and (max-width: 425px){
+        .Header{
+            height: 25vw;
+        }
+        .containerHeaderResponsive{
+            height: 25vw;
+        }
     }
