@@ -72,11 +72,11 @@ export default function NuestraHistoria() {
           Nuestro compromiso es siempre contigo y tu negocio.
           <br />
           <br />
-          Resolvemos eficazmente y te acompañamos en el proceso.
+          Resolvemos eficazmente y te acompañamos en el proceso.{" "}
+          <div className="ContainerComillaInf">
+            <img src={comillaOInf} alt="Comillas cita" />
+          </div>
         </p>
-        <div className="ContainerComillaInf">
-          <img src={comillaOInf} alt="Comillas cita" />
-        </div>
       </div>
     </section>
   );

@@ -117,7 +117,7 @@
 .ContainerComillaInf{
     display: flex;
     justify-content: flex-end;
-    width: 95%;
+    width: 105%;
     margin-top: -7%;
 }
 
@@ -187,10 +187,10 @@
     .sup{
         font-size: 22px !important;
     }
-    .ContainerComillaInf{
+    /* .ContainerComillaInf{
         margin-top: -6%;
         width: 60%;
-    }
+    } */
    
 }
 @media screen and (min-width: 1025px) and (max-width: 1440px){
