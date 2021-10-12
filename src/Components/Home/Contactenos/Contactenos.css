@@ -237,9 +237,6 @@ line-height: 32px;
         margin-bottom: 5%;
         font-size: 16px;
     }
-}
-
-@media screen  and (max-width:1024px) {
     .containerContactenos{
         flex-direction: row;
         align-items: flex-start;
@@ -247,9 +244,7 @@ line-height: 32px;
     .h2Conocenos{
         text-align: center;
     }
-    .pConocenos{
-        font-size: 16px;
-    }
+   
     .conocenos{
         margin-top: 2%;
         margin-right: 2%;

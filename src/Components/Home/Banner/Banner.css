@@ -158,13 +158,16 @@
     .buttonBannerHomeSo, .buttonBannerHomeNo{
         display: none;
     }
+    .containerbuttonBannerHome, .parrafoTitle {
+        display: none;
+    }
 }
 @media screen and (max-width: 480px) {
     .banner{
         background-image: url("./img/480x70.png");
         background-size: cover;
-        height: auto;
-        /* height: 700px; */
+        /* height: auto; */
+        height: 700px;
     }
     .containterIntroBanner{
         /* padding-top: 35%; */
@@ -175,6 +178,7 @@
         opacity: 0.71;
         padding: 3%;
         font-size: 30px;
+        margin-top: 23%;
     }
     .containerParrafoTitle{
         width: 85%;
