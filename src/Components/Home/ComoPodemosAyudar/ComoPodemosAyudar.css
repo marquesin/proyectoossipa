@@ -25,6 +25,7 @@ font-weight: 700;
     color: #626D71;
     opacity: 1;
     text-align: left;
+    line-height: 32px;
     
 }
 .containerServiciosCPA{
@@ -156,5 +157,14 @@ fill: blanchedalmond;
     }
     .ServiciosCPA{
         margin: 5%;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+    .h2CPA{
+        font-size: 32px;
+    }
+    .pCPA{
+        font-size: 16px;
+        line-height: 32px;
     }
 }
