@@ -1,7 +1,32 @@
+*/{
+    color: #767676;
+}
 .titleTYC{
     color: #2E2E2E;
     font-weight: 700;
     /* text-align: left; */
     font-size: 41px;
+    width: 60%;
+    margin: auto;
     margin-top: 4%;
+    margin-bottom: 4%;
+}
+.containerAvisoDePrivacidad{
+    width: 60%;
+    margin: auto;
+    text-align: justify;
+    color: #767676;
+}
+.containerAvisoDePrivacidad h2{
+    color: #2E2E2E;
+    margin: auto 0 auto 0;
+}
+
+@media screen and (max-width: 1200px){
+    .titleTYC{
+        font-size: 2em;
+    }
+    .containerAvisoDePrivacidad{
+        width: 80%;
+    }
 }
