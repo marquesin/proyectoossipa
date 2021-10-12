@@ -47,24 +47,29 @@
     width: 50%;
     background-color: #D8D8D8;
 }
+#servicioAsea{
+    background-image: url(./img/Artboard–1.png);
+    background-size: cover;
+
+}
 #servicioCre{
-    background-image: url("./img/Artboard_–_2.png");
+    background-image: url("./img/Artboard–2.png");
     background-size: cover;
 }
 #servicioSener{
-    background-image: url("./img/Artboard_–_3.png");
+    background-image: url("./img/Artboard–3.png");
     background-size: cover;
 }
 #servicioConsultoria{
-    background-image: url("./img/Artboard_–_4.png");
+    background-image: url("./img/Artboard–4.png");
     background-size: cover;
 }
 #servicioAdministracion{
-    background-image: url("./img/Artboard_–_5.png");
+    background-image: url("./img/Artboard–5.png");
     background-size: cover;
 }
 #sevicioNuevosN{
-    background-image: url("./img/Artboard_–_6.png");
+    background-image: url("./img/Artboard–6.png");
     background-size: cover;
 
 }
@@ -86,7 +91,7 @@
         align-items: center;
     }
     .h4ServicioAmpliado{
-        font-size: 22px;
+        font-size: 26px;
         text-align: center;
         margin-top: 8%;
     }

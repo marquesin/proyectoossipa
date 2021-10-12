@@ -21,7 +21,7 @@ export default function Footer() {
             </a>
           </div>
           <a href="tel:+5215536736747">
-            <img src={phone} alt="" />
+            <img src={phone} alt="Imagen de telefono" />
           </a>
         </div>
         <div className="footer-contact-single">
@@ -32,7 +32,7 @@ export default function Footer() {
             </a>
           </div>
           <a href="mailto:contacto@ossipa.com">
-            <img src={mail} alt="" />
+            <img src={mail} alt="Imagen de sobre de carta" />
           </a>
         </div>
         <div className="footer-contact-single">
@@ -43,19 +43,19 @@ export default function Footer() {
               <br /> Pedregal, CDMX
             </h5>
           </div>
-          <img src={place} alt="" />
+          <img src={place} alt="Imagen de mapa" />
         </div>
       </section>
       {/* Seccion modificada para responsive */}
       <section className="footer-contact-responsive">
         <div className="containerIconFooterContact">
           <a href="tel:+5215536736747">
-            <img src={phone} alt="" />
+            <img src={phone} alt="Imagen telefono" />
           </a>
           <a href="mailto:contacto@ossipa.com">
-            <img src={mail} alt="" />
+            <img src={mail} alt="Imagen sobre carta" />
           </a>
-          <img src={place} alt="" />
+          <img src={place} alt="Imagen mapa" />
         </div>
         <div className="containerInfoContact">
           <div>
@@ -147,15 +147,6 @@ export default function Footer() {
                   <a href="#">Soluciones</a>
                 </li>
               </HashLink>
-              {/* <li>
-                <a href="#">Servicio 1</a>
-              </li>
-              <li>
-                <a href="#">Servicio 1</a>
-              </li>
-              <li>
-                <a href="#">Servicio 1</a>
-              </li> */}
             </ul>
           </div>
         </div>

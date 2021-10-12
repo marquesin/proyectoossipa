@@ -265,7 +265,7 @@ line-height: 32px;
 
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .containerContactenos{
         margin-top: -2%;
         flex-direction: column;
