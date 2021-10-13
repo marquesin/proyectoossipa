@@ -42,7 +42,7 @@ footer a:hover{
   margin-right: 15px;
   padding-right: 15px;
   border-right: 1px white solid;
-  text-align: right;
+  text-align: left;
 }
 
 .footer-info {
@@ -200,6 +200,7 @@ footer legend {
     border-left: solid;
     padding-left: 2%;
     color: #FFFFFF;
+    text-align: left;
   }
 
   /* .footer-contact-single{

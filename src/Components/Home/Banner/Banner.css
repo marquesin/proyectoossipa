@@ -116,6 +116,9 @@
         font-size: 16px;
         line-height: 32px;
     }
+    .containerbuttonBannerHome {
+        width: 40%;
+    }
 
     /* .containerbuttonBannerHome {
         display: none;
@@ -137,6 +140,10 @@
         padding: 6%;
         font-size: 45px;
     }
+    .containerbuttonBannerHome {
+        width: 60%;
+        padding-bottom: 2%;
+    }
 }
 
 @media screen and (max-width: 769px) {
@@ -155,6 +162,7 @@
         padding: 6%;
         font-size: 45px;
     }
+    
     .buttonBannerHomeSo, .buttonBannerHomeNo{
         display: none;
     }

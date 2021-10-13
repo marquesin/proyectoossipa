@@ -40,8 +40,6 @@ font-weight: 700;
 }
 .ServiciosCPA{
     width: 120px;
-    height: auto;
-    
 }
 .buttonServiciosCPA{
     background-color: #D8D8D8 ;
@@ -53,12 +51,15 @@ font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -10%;
 }
 .buttonServiciosCPA:hover{
     background-color: #3B7381;
     width: 108px;
     height: 108px;
     cursor: pointer;
+    margin-top: -10%;
+
 }
 .buttonServiciosCPA:active, .buttonServiciosCPAActivo{
     background-color:  #54A9BE;
@@ -68,16 +69,19 @@ font-weight: 700;
     border-radius: 100%;
     border:none;
     opacity: 1;
+    margin-top: -10%;
+
 }
 
 .pServiciosCPA{
     color: #2D2D2D;
     font-weight: 700;
     opacity: 1;
-    font-size: 19px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    font-size: 14px;
+    margin-right: 8%;
+    text-align: center;
+    width: 92%;
+    height: auto;
 }
 /* #buttonSectPueba{
     background-color: #53A8BD;

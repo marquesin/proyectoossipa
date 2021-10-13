@@ -52,6 +52,7 @@ export default function HablaConNosotros() {
                 placeholder="Nombre"
                 className="inputContactenos"
                 name="nombre"
+                id="inputNombre"
               />
             </div>
             <div className="containerTemaTel">
@@ -66,6 +67,7 @@ export default function HablaConNosotros() {
                 placeholder="Teléfono"
                 className="inputContactenos"
                 name="telefono"
+                id="inputTel"
               />
             </div>
             <textarea

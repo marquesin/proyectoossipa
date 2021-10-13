@@ -40,10 +40,10 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    
 }
-
-
+#inputTel,#inputNombre{
+    margin-right: 0;
+}
 .inputContactenos{
     width: 350px;
     height: 50px;
@@ -51,12 +51,15 @@
     border-bottom: solid #707070 1px;
     text-align: right;
     margin: 2%;
+    padding: 0;
 }
 .texteaMensaje{
     border: none;
     border-bottom: solid #707070 1px;
     text-align: right;
     margin-top: 2%;
+    padding: 0;
+    width: 100%;
 }
 
 .buttonEnviarContactenos{
@@ -69,6 +72,7 @@
     height: 61px;
     width: 100%;
     margin-top: 4%;
+    padding: 0;
 }
 .buttonEnviarContactenos:hover{
     background-color: #313639;
@@ -83,18 +87,21 @@
 }
 
 .containerVisitanos{
-    width: 35%;
+    width: 40%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     /* margin: 2%; */
     margin-left: 4%;
+    text-align: left;
+
 }
 .itemVisitanos{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
-    margin-top: 1%;
+    margin-bottom: 15%;
+    flex-wrap: wrap;
 }
 .iconContactenos{
     width: 40px;
@@ -110,10 +117,10 @@
     align-items: center;
     color: #767676;
     font-weight: 600;
-    text-align: right;
+    /* text-align: right; */
     letter-spacing: 0px;
     opacity: 1;
-    font-size: 18px;
+    font-size: 16px;
     /* border-right: solid 3px #707070; */
     border-radius: 5%;
     width: 70%;
@@ -121,14 +128,16 @@
 
 .infoVisitTitle{
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     /* text-align: left; */
     width: 100%;
+    margin: 0;
 }
 
 .infoSubVisitTitle{
     font-weight: 500;
     margin-top: 0;
+    font-size: 12px;
 }
 .containerIconVisit{
     display: flex;
@@ -167,7 +176,8 @@
         align-items: center;
     }
     .inputContactenos{
-        width: 100%;
+        width: 98%;
+        margin-right: 0;
     }
     .titleHablaConNosotros{
         font-size: 26px;

@@ -110,7 +110,7 @@
         align-items: center;
     }
     .buttonServicioAmpliado{
-        display: none;
+        margin-bottom: 35%;
     }
     .buttonServiciosResponsive{
         display: block;
@@ -149,3 +149,9 @@
         line-height: 32px;
     }
 }
+@media screen and (max-width:768px) {
+  .buttonServicioAmpliado{
+    display: none;
+}  
+}
+
