@@ -28,7 +28,8 @@ export default function PorqueElegirnos() {
             />
             Nos ayudaron a gestionar todas las regulaciones para la construcción
             de nuestra terminal de almacenamiento. Avanzamos de forma eficiente
-            y oportuna en cada etapa del proyecto.
+            y oportuna en cada etapa del <br />
+            proyecto.
             <img
               src={ComillaInf}
               alt="Comilla de cita inferior"

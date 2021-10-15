@@ -249,8 +249,9 @@ footer legend {
   }
 .social-media-footerResponsive{
   display: flex;
-  justify-content: center;
-  margin: 10px 0;
+  width: 40%;
+  justify-content: space-evenly;
+  margin: auto;
 
 }
 .avisoDePrivacidadResponsive{
@@ -267,4 +268,16 @@ footer div.footer-column-3 p{
   text-align: left;
 }
 
+
+}
+
+@media screen and (max-width: 769px) {
+  .logo-white {
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width: 426px) {
+  .logo-white {
+    margin-top: 6%;
+  }
 }

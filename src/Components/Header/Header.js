@@ -45,8 +45,9 @@ export default function Header() {
         </div>
       </div>
       <div className="containerHeaderResponsive">
-        <img src={logo} alt="Logo de la empresa" className="logoHeader" />
-
+        <HashLink to="/#bannerHome">
+          <img src={logo} alt="Logo de la empresa" className="logoHeader" />
+        </HashLink>
         <img
           src={iconMenu}
           alt="Icono menu desplegable"
@@ -57,17 +58,17 @@ export default function Header() {
       {menuDes ? (
         <div className="containerMenuDesplegable">
           <div className="containerButtonHeaderDesplegable">
-            <HashLink to="/#bannerHomeD">
+            <HashLink to="/#bannerHome">
               <button className="buttonHeaderDesplegable">HOME</button>
+            </HashLink>
+            <HashLink to="/nosotros#NOS">
+              <button className="buttonHeaderDesplegable">NOSOTROS</button>
             </HashLink>
             <HashLink to="/soluciones#SOLUCIONES">
               <button className="buttonHeaderDesplegable">SOLUCIONES</button>
             </HashLink>
-            <HashLink to="/nosotros#bannerNosotrosD">
-              <button className="buttonHeaderDesplegable">NOSOTROS</button>
-            </HashLink>
             {/* <button className="buttonHeaderDesplegable">BLOG</button> */}
-            <HashLink to="/contacto#bannerContactoD">
+            <HashLink to="/contacto#bannerContacto">
               <button className="buttonHeaderDesplegable">CONTACTO</button>
             </HashLink>
           </div>

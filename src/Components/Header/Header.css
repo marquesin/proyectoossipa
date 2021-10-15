@@ -68,6 +68,8 @@
 .containerHeaderResponsive{
     display: none;
 }
+
+
 .iconMenuDesolegable{
     width: 30px;
 }
@@ -116,7 +118,7 @@
         width: 100%;
         /* height: 100%; */
         position: fixed;
-        padding-top: 25vw;
+        padding-top: 15vw;
         flex-direction: column;
         display: flex;
         z-index: 200;
@@ -132,6 +134,9 @@
        justify-content: space-around;
        padding-bottom: 5vw;
        padding-top: 5vw;
+       /* border-bottom: #c0b9b9 0.5px solid; */
+       border-left: #c0b9b9 0.5px solid;
+       border-right: #c0b9b9 0.5px solid;
 
     }
     .buttonHeaderDesplegable{
@@ -150,6 +155,9 @@
     .containerIconHeaderDesplegable{
         padding-top: 15px;
         background-color: #FFFFFF;
+        border-bottom: #c0b9b9 0.5px solid;
+        border-left: #c0b9b9 0.5px solid;
+        border-right: #c0b9b9 0.5px solid;
 
     }
     .containerIconHeaderDesplegable{
@@ -198,6 +206,9 @@
         .containerHeaderResponsive{
             height: 15vw;
         }
+        .containerMenuDesplegable{
+            padding-top: 15vw;
+        }
     }
     @media screen and (max-width: 425px){
         .Header{
@@ -205,5 +216,8 @@
         }
         .containerHeaderResponsive{
             height: 25vw;
+        }
+        .containerMenuDesplegable{
+            padding-top: 25vw;
         }
     }

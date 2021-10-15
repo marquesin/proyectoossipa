@@ -224,6 +224,7 @@ line-height: 32px;
         width: 80%;
         justify-content: center;
         align-items: center;
+        /* margin-top: 2%; */
     }
     .h2Conocenos{
         font-size: 26px;
@@ -276,6 +277,7 @@ line-height: 32px;
     }
     .conocenos{
         margin: auto;
+        margin-top: 12%;
     }
     .h2Conocenos{
         text-align: center;
