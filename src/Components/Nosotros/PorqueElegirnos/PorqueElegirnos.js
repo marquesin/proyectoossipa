@@ -9,7 +9,7 @@ export default function PorqueElegirnos() {
     <section className="containerPorqueElegirnos">
       <div className="containerTitleyMisiones">
         <h1 className="titlePorqueElegirnos">
-          <samp>¿</samp> POR QUÉ ELEGIRNOS<samp>?</samp>
+          <samp>¿</samp>POR QUÉ ELEGIRNOS<samp>?</samp>
           {/* <span className="titlePorqueElegirnosColor">.</span> */}
         </h1>
         <Misiones />

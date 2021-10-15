@@ -69,13 +69,30 @@ export default function NuestraHistoria() {
           <img src={comillaOSup} alt="Comillas cita" />
         </div>
         <p className="pComilla sup">
-          Nuestro compromiso es siempre contigo y tu negocio.
-          <br />
-          <br />
-          Resolvemos eficazmente y te acompañamos en el proceso.{" "}
-          <div className="ContainerComillaInf">
-            <img src={comillaOInf} alt="Comillas cita" />
-          </div>
+          Nuestro compromiso es siempre contigo y<br /> tu negocio.
+          {/* <div className="ContainerComillaInf"> */}
+          <img
+            src={comillaOInf}
+            alt="Comillas cita"
+            className="comillaCierre"
+          />
+          {/* </div> */}
+        </p>{" "}
+        <br />
+        <br />
+        <br />
+        <div className="containerComilla">
+          <img src={comillaOSup} alt="Comillas cita" />
+        </div>
+        <p className="pComilla sup">
+          Resolvemos eficazmente y<br /> te acompañamos en el proceso.
+          {/* <div className="ContainerComillaInf"> */}
+          <img
+            src={comillaOInf}
+            alt="Comillas cita"
+            className="comillaCierre"
+          />
+          {/* </div> */}
         </p>
       </div>
     </section>

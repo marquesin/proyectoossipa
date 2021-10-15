@@ -99,9 +99,10 @@ export default function HablaConNosotros() {
           <div className="itemVisitanos">
             <div className="CInfoVisit">
               <h3 className="infoVisitTitle">O usa tu aplicación de correo</h3>
-              <a href="mailto:contacto@ossipa.com">
-                <h5 className="infoSubVisitTitle">contacto@ossipa.com</h5>
-              </a>
+
+              <h5 className="infoSubVisitTitle">
+                <a href="mailto:contacto@ossipa.com">contacto@ossipa.com</a>
+              </h5>
             </div>
             <a href="mailto:contacto@ossipa.com">
               <div className="containerIconVisit">
@@ -112,9 +113,12 @@ export default function HablaConNosotros() {
           <div className="itemVisitanos">
             <div className="CInfoVisit">
               <h3 className="infoVisitTitle">O chatea con nosotros</h3>
-              <a href="http://wa.me/+5215536736747">
-                <h5 className="infoSubVisitTitle">respuesta menor a 1 hora</h5>
-              </a>
+
+              <h5 className="infoSubVisitTitle">
+                <a href="http://wa.me/+5215536736747">
+                  respuesta menor a 1 hora
+                </a>
+              </h5>
             </div>
             <a href="http://wa.me/+5215536736747">
               <div className="containerIconVisit">

@@ -57,30 +57,30 @@
 
 .simulacionImagen{
     width: 100%;
-    height: 650px;
+    height: 30vw;
 }
 #solucionAsea{
-    background-image: url("./Images/ASEA.png");
+    background-image: url("./Images/ASEA_dkt.jpg");
     background-size: cover;
 }
 #solucionCre{
-    background-image: url("./Images/Artboard_–_12.png");
+    background-image: url("./Images/CRE_dkt.jpg");
     background-size: cover;
 }
 #solucionSener{
     background-size: cover;
-    background-image: url("./Images/Artboard_–_7.png");
+    background-image: url("./Images/SENER_dkt.jpg");
 }
 #solucionConsultoria{
     background-size: cover;
-    background-image: url("./Images/Artboard_–_11.png");
+    background-image: url("./Images/Consultoria_dkt.jpg");
 }
 #solucionAdministracion{
     background-size: cover;
-    background-image: url("./Images/Artboard_–_9.png");
+    background-image: url("./Images/Admin_dkt.jpg");
 }
 #solucionNuevosN{
-    background-image: url("./Images/Artboard_–_10.png");
+    background-image: url("./Images/NuevosNegocios_dkt.jpg");
     background-size: cover;
 
 }
@@ -116,6 +116,10 @@
     .ulContenidos li samp{
         font-size: 20px;
     }
+    .simulacionImagen{
+        width: 100%;
+        height: 50vw;
+    }
    
 }
 @media screen and (min-width: 1025px) and (max-width: 1440px){
@@ -131,17 +135,49 @@
        
     }
     .ulContenidos li{
-        /* margin: 2%; */
         margin-block-start: 0;
         margin-block-end: 0;
         margin-bottom: 2%;
     }
+    .simulacionImagen{
+        width: 100%;
+        height: 40vw;
+    }
 }
 @media screen and (max-width: 768px) {
     .ulContenidos li{
-    /* margin: 2%; */
     margin-block-start: 0;
     margin-block-end: 0;
     margin-bottom: 5%;
 }
+.simulacionImagen{
+    width: 100%;
+    height: 70vw;
+}
+#solucionAsea{
+    background-image: url("./Images/ASEA_mob.jpg");
+    background-size: cover;
+}
+#solucionCre{
+    background-image: url("./Images/CRE_mob.jpg");
+    background-size: cover;
+}
+#solucionSener{
+    background-size: cover;
+    background-image: url("./Images/SENER_mob.jpg");
+}
+#solucionConsultoria{
+    background-size: cover;
+    background-image: url("./Images/CONSULT_mob.jpg");
+}
+#solucionAdministracion{
+    background-size: cover;
+    background-image: url("./Images/Admin_mob.jpg");
+}
+#solucionNuevosN{
+    background-image: url("./Images/NVOSNEG_mob.jpg");
+    background-size: cover;
+
+}
+
 }

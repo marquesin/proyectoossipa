@@ -120,6 +120,10 @@
     width: 105%;
     margin-top: -7%;
 }
+.comillaCierre{
+    /* margin-bottom: -3%; */
+    margin-left: 3%;
+}
 
 @media screen and (max-width: 1200px) {
     .containerNuestraHistoria {
@@ -148,11 +152,11 @@
     }
 
     .nuestraHistoriaDerechaComillas {
-        width: 94%;
+        width: 100%;
         justify-content: center;
         align-items: center;
-        padding-bottom: 12%;
-        padding-top: 12%;
+        padding-bottom: 8%;
+        padding-top: 8%;
     }
     .sup{
         font-size: 18px !important;
