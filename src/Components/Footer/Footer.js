@@ -163,9 +163,9 @@ export default function Footer() {
             la cadena de suministro y logística de combustibles e hidrocarburos.
           </p>
           <div className="social-media-footer">
-            <img src={fb} alt="facebook-icon" />
-            {/* <img src={twitter} alt="twitter-icon" /> */}
-            <img src={linkedin} alt="linkedin-icon" />
+            {/* <img src={fb} alt="facebook-icon" />
+            <img src={twitter} alt="twitter-icon" />
+            <img src={linkedin} alt="linkedin-icon" /> */}
           </div>
           <HashLink to="/AvisoDePrivacidad#AvisoDePrivacidad">
             <a href="#" className="avisoDePrivacidad">
@@ -178,9 +178,9 @@ export default function Footer() {
       </section>
       <div>
         <div className="social-media-footerResponsive">
-          <img src={fb} alt="facebook-icon" />
+          {/* <img src={fb} alt="facebook-icon" /> */}
           {/* <img src={twitter} alt="twitter-icon" /> */}
-          <img src={linkedin} alt="linkedin-icon" />
+          {/* <img src={linkedin} alt="linkedin-icon" /> */}
         </div>
         <HashLink to="/AvisoDePrivacidad#AvisoDePrivacidad">
           <a href="#" className="avisoDePrivacidadResponsive">

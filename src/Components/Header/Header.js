@@ -32,17 +32,17 @@ export default function Header() {
             <button className="buttonHeader">CONTACTO</button>
           </HashLink>
         </div>
-        <div className="containerIconHeader">
+        {/* <div className="containerIconHeader">
           <button className="iconosRedes">
             <img src={iconFace} alt="Icono de Facebook" />
           </button>
           <button className="iconosRedes">
             <img src={iconIn} alt="Icono de In" />
-          </button>
-          {/* <img src={iconFace} alt="Icono de Facebook" className="iconosRedes" />
+          </button> */}
+        {/* <img src={iconFace} alt="Icono de Facebook" className="iconosRedes" />
           <img src={iconTwi} alt="Icono de Twitter" className="iconosRedes" />
           <img src={iconIn} alt="Icono de In" className="iconosRedes" /> */}
-        </div>
+        {/* </div> */}
       </div>
       <div className="containerHeaderResponsive">
         <HashLink to="/#bannerHome">
@@ -72,7 +72,7 @@ export default function Header() {
               <button className="buttonHeaderDesplegable">CONTACTO</button>
             </HashLink>
           </div>
-          <div className="containerIconHeaderDesplegable">
+          {/* <div className="containerIconHeaderDesplegable">
             <img
               src={iconFace}
               alt="Icono de Facebook"
@@ -83,7 +83,7 @@ export default function Header() {
               alt="Icono de In"
               className="iconosRedesResponsive"
             />
-          </div>
+          </div> */}
         </div>
       ) : (
         ""
