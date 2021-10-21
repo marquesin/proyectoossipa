@@ -10,7 +10,7 @@
 }
 .mayorInfoC{
     background-color:  #54A9BE ;
-    opacity: 1;
+    opacity: 100%;
     /* width: 446px; */
     width: 400px;
     /* height: 138px; */
@@ -26,7 +26,7 @@
     font-size: 20px;
     font-weight: 700;
     /* text-shadow: 0px 3px 50px #4B4B4BE8; */
-    opacity: 1;
+    opacity: 100%;
     padding: 5%;
     text-align: center;
 }
@@ -36,7 +36,7 @@
     width: 400px;
     background-color: #F9F9F9;
     /* mix-blend-mode: multiply; */
-    opacity: 1;
+    opacity: 100%;
     padding-top: 8%;
     
 }
@@ -52,7 +52,7 @@
     padding-top: 4%;
     margin-top: 4%;
     background-color: #F9F9F9;
-    opacity: 1;
+    opacity: 100%;
 }
 .texteaMayorInfo{
     margin-top: 1%;
@@ -66,7 +66,7 @@
     padding-top: 4%;
     margin-top: 4%;
     background-color: #F9F9F9;
-    opacity: 1;
+    opacity: 100%;
 }
 .buttonEnviarMayorInfo{
     height: 65px;
@@ -109,7 +109,7 @@
     font-weight: 700;
     font-size: 41px;
     color: #2E2E2E;
-    opacity: 1;
+    opacity: 100%;
     text-align: right;
     width: 90%;
 }
@@ -124,7 +124,7 @@ align-self: center;
 text-align: left;
 letter-spacing: 0px;
 color: #767676;
-opacity: 1;
+opacity: 100%;
 font-weight: 500;
 font-size: 24px;
 line-height: 32px;
@@ -141,7 +141,7 @@ line-height: 32px;
     background-color: #F9F9F9 ;
     box-shadow: 0px 3px 6px #00000029;
     mix-blend-mode: multiply;
-    opacity: 1;
+    opacity: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
