@@ -37,11 +37,11 @@ export default function Footer() {
         </div>
         <div className="footer-contact-single">
           <div className="text-block-contact">
-            <h3>Visìtanos</h3>
-            <h5>
+            <h3>Visítanos</h3>
+            {/* <h5>
               Cascada, Jardínes del
               <br /> Pedregal, CDMX
-            </h5>
+            </h5> */}
           </div>
           <img src={place} alt="Imagen de mapa" />
         </div>
@@ -71,11 +71,11 @@ export default function Footer() {
             </a>
           </div>
           <div>
-            <h3>Visìtanos</h3>
-            <h5>
+            <h3>Visítanos</h3>
+            {/* <h5>
               Cascada,<br></br> Jardínes del Pedregal,
               <br /> CDMX
-            </h5>
+            </h5> */}
           </div>
         </div>
       </section>

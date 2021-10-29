@@ -85,7 +85,9 @@ export default function NuestraHistoria() {
           <img src={comillaOSup} alt="Comillas cita" />
         </div>
         <p className="pComilla sup">
-          Resolvemos eficazmente y<br /> te acompañamos en el proceso.
+          Resolvemos eficazmente
+          <br id="brResponsive" /> y te acompañamos
+          <br id="brResponsive2" /> en el proceso.
           {/* <div className="ContainerComillaInf"> */}
           <img
             src={comillaOInf}

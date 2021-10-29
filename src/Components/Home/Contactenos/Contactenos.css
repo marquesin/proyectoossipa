@@ -273,7 +273,10 @@ line-height: 32px;
 @media screen and (max-width:767px) {
     .containerContactenos{
         margin-top: -2%;
-        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .ContainerMayorInformacion{
+        margin-top: 8%;
     }
     .conocenos{
         margin: auto;

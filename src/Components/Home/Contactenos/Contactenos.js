@@ -57,7 +57,7 @@ export default function Contactenos() {
             />
             <input
               type="tel"
-              placeholder="Telefono"
+              placeholder="Teléfono"
               className="ImputMayorInfo"
               name="telefono"
             />

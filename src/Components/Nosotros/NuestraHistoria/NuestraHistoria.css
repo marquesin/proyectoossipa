@@ -124,6 +124,12 @@
     /* margin-bottom: -3%; */
     margin-left: 3%;
 }
+#brResponsive{
+    display: none;
+}
+#brResponsive2{
+    display: none;
+}
 
 @media screen and (max-width: 1200px) {
     .containerNuestraHistoria {
@@ -219,4 +225,14 @@
 .p2NuestraHistoria{
     font-size: 14px;
 }
+}
+@media screen and (min-width: 375px) and (max-width: 425px){
+    #brResponsive{
+        display: block;
+    }
+}
+@media screen and (min-width: 425px) and (max-width: 1024px){
+    #brResponsive2{
+        display: block;
+    }
 }

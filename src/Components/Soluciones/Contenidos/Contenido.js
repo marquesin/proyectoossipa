@@ -102,7 +102,7 @@ export default function Contenido() {
               <samp>O</samp>Reporte de estructura accionaria
             </li>
             <li>
-              <samp>O</samp>Reporte anual de obligaciones como pemisionario.
+              <samp>O</samp>Reporte anual de obligaciones como pemisionario
             </li>
           </ul>
         </div>
@@ -129,7 +129,7 @@ export default function Contenido() {
           </ul>
           <ul className="ulContenidos">
             <li>
-              <samp>O</samp>Permiso de Importación.
+              <samp>O</samp>Permiso de Importación
             </li>
           </ul>
         </div>
@@ -195,7 +195,7 @@ export default function Contenido() {
           <ul className="ulContenidos">
             <li>
               <samp>O</samp>
-              Conformación e implementación de SASISOPA por medio de software.{" "}
+              Conformación e implementación de SASISOPA por medio de software{" "}
             </li>
             <li>
               <samp>O</samp>Software para Administración
@@ -242,7 +242,7 @@ export default function Contenido() {
               <samp>O</samp>Análisis y evaluación de factibilidad
             </li>
             <li>
-              <samp>O</samp>Evaluaciones de predio.
+              <samp>O</samp>Evaluaciones de predio
             </li>
           </ul>
         </div>

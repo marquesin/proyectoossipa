@@ -113,14 +113,13 @@
         margin-bottom: 35%;
     }
     .buttonServiciosResponsive{
-        display: block;
+        display: flex;
         margin: 4%;
         width: 28px;
         height: 28px;
         border-radius: 50%;
         background-color: #6BBEC6;
         border: none;
-        display: flex;
         justify-content: center;
         align-items: center;
     }
@@ -132,9 +131,11 @@
     }
     .right{
         margin-left: 32%;
+        width: 60%;
     }
     .left{
         margin-right: 32%;
+        width: 60%;
     }
 
 

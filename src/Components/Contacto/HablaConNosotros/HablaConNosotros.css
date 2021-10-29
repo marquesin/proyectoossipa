@@ -48,14 +48,14 @@
     height: 50px;
     border: none;
     border-bottom: solid #707070 1px;
-    text-align: right;
+    /* text-align: right; */
     margin: 2%;
     padding: 0;
 }
 .texteaMensaje{
     border: none;
     border-bottom: solid #707070 1px;
-    text-align: right;
+    /* text-align: right; */
     margin-top: 2%;
     padding: 0;
     width: 100%;
@@ -203,4 +203,7 @@ a{
     text-decoration: none;
     color: unset;
     cursor: pointer;
+}
+.containerCorreoNombreTemaTelMensaje ::placeholder {
+    text-align: right;
 }
