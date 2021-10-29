@@ -77,6 +77,7 @@
     display: none;
 }
 
+
 @media screen and (max-width:1200px) {
     .servicioAmpliado{
         width: 100%;
@@ -115,8 +116,8 @@
     .buttonServiciosResponsive{
         display: flex;
         margin: 4%;
-        width: 28px;
-        height: 28px;
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
         background-color: #6BBEC6;
         border: none;
@@ -156,3 +157,9 @@
 }  
 }
 
+@media screen and (max-width:768px) {
+    .buttonServiciosResponsive{
+        height: 30px;
+        width: 30px;
+    }
+}
